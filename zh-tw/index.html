@@ -1,0 +1,812 @@
+<!DOCTYPE html><html lang="zh-tw" dir="ltr"><head><!-- Global Metadata --><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="generator" content="Astro v7.3.3"><!-- 生产环境独立域名自动重定向保护 (当通过 github.io 访问时秒级重定向到独立域名) --><script>(function(){const targetSiteUrl = "https://baseballbros.online";
+
+  (function() {
+    if (window.location.hostname.endsWith('github.io') && targetSiteUrl) {
+      try {
+        var target = new URL(targetSiteUrl);
+        if (target.hostname && !target.hostname.endsWith('github.io') && target.hostname !== 'localhost') {
+          var repoPath = window.location.pathname.split('/')[1] || '';
+          var regex = new RegExp('^/' + repoPath);
+          var cleanPath = window.location.pathname.replace(regex, '') || '/';
+          window.location.replace(target.origin + cleanPath + window.location.search + window.location.hash);
+        }
+      } catch (e) {}
+    }
+  })();
+})();</script><!-- Canonical URL --><link rel="canonical" href="https://baseballbros.online/zh-tw/"><!-- Alternate Hreflang Tags (Strict Multi-language SEO - No 404s) --><link rel="alternate" hreflang="en" href="https://baseballbros.online/"><link rel="alternate" hreflang="zh-cn" href="https://baseballbros.online/zh-CN"><link rel="alternate" hreflang="zh-tw" href="https://baseballbros.online/zh-TW"><link rel="alternate" hreflang="x-default" href="https://baseballbros.online/"><!-- Primary Meta Tags --><title>Baseball Bros Online: 免費線上玩多人 IO 棒球遊戲 - Baseball Bros Online</title><meta name="title" content="Baseball Bros Online: 免費線上玩多人 IO 棒球遊戲 - Baseball Bros Online"><meta name="description" content="快節奏多人線上棒球動作遊戲，操作簡單極易上手，全力揮棒打出全壘打！"><meta name="theme-color" content="#1d4ed8"><!-- Open Graph / Facebook --><meta property="og:type" content="website"><meta property="og:url" content="https://baseballbros.online/zh-tw/"><meta property="og:title" content="Baseball Bros Online: 免費線上玩多人 IO 棒球遊戲 - Baseball Bros Online"><meta property="og:description" content="快節奏多人線上棒球動作遊戲，操作簡單極易上手，全力揮棒打出全壘打！"><meta property="og:image" content="https://baseballbros.online/images/games/baseball-bros.webp"><meta property="og:site_name" content="Baseball Bros Online"><meta property="og:locale" content="zh-tw"><meta property="og:locale:alternate" content="en"><meta property="og:locale:alternate" content="zh-cn"><!-- Twitter --><meta property="twitter:card" content="summary_large_image"><meta property="twitter:url" content="https://baseballbros.online/zh-tw/"><meta property="twitter:title" content="Baseball Bros Online: 免費線上玩多人 IO 棒球遊戲 - Baseball Bros Online"><meta property="twitter:description" content="快節奏多人線上棒球動作遊戲，操作簡單極易上手，全力揮棒打出全壘打！"><meta property="twitter:image" content="https://baseballbros.online/images/games/baseball-bros.webp"><!-- Structured Data --><script type="application/ld+json">{"@context":"https://schema.org","@type":"VideoGame","name":"Baseball Bros Online: 免費線上玩多人 IO 棒球遊戲","description":"快節奏多人線上棒球動作遊戲，操作簡單極易上手，全力揮棒打出全壘打！","image":"https://baseballbros.online/images/games/baseball-bros.webp","playMode":"SinglePlayer","applicationCategory":"Game","operatingSystem":"Any","genre":"baseball-games","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","ratingCount":"107","bestRating":"5","worstRating":"1"}}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://baseballbros.online"},{"@type":"ListItem","position":2,"name":"Baseball Bros Online: 免費線上玩多人 IO 棒球遊戲 - Baseball Bros Online","item":"https://baseballbros.online/zh-tw/"}]}</script><!-- Google Consent Mode v2 (仅在开启商业化 AdSense 或 GA4 统计时注入) --><!-- Google AdSense Integration --><!-- Google Analytics 4 (GA4) Integration --><script>
+      // 优先从 localStorage 提取主题，默认使用浅色模式
+      const savedTheme = localStorage.getItem('theme');
+      if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches && savedTheme !== 'light')) {
+        // 如果用户主动设置过 dark，则保留
+        if (savedTheme === 'dark') {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+    </script><link rel="stylesheet" href="/_astro/Layout.DcMnw2aT.css"><style>#game-player-root.web-fullscreen{z-index:99999!important;background:#000!important;border-radius:0!important;width:100vw!important;max-width:none!important;height:100vh!important;margin:0!important;position:fixed!important;inset:0!important}#game-player-root.web-fullscreen .game-viewport{aspect-ratio:unset!important;border:none!important;border-radius:0!important;height:calc(100vh - 44px)!important}.custom-scrollbar[data-astro-cid-75uyrz4v]::-webkit-scrollbar{width:6px}.custom-scrollbar[data-astro-cid-75uyrz4v]::-webkit-scrollbar-track{background:0 0}.custom-scrollbar[data-astro-cid-75uyrz4v]::-webkit-scrollbar-thumb{background:#d4d4d8;border-radius:99px}.dark[data-astro-cid-75uyrz4v] .custom-scrollbar[data-astro-cid-75uyrz4v]::-webkit-scrollbar-thumb{background:#27272a}
+</style></head><body class="min-h-screen bg-[#f8f9fa] dark:bg-neutral-950 text-neutral-800 dark:text-neutral-100 antialiased selection:bg-amber-400 selection:text-neutral-950 flex flex-col font-sans transition-colors duration-200"><!-- 顶部导航 --><header class="sticky top-0 z-50 bg-white/95 dark:bg-neutral-950/90 backdrop-blur-md border-b border-neutral-200/80 dark:border-neutral-800 transition-colors duration-200 shadow-xs"><div class="max-w-[1600px] mx-auto px-4 md:px-6 h-16 flex items-center justify-between gap-4"><!-- Logo (彩色积木块面字标，高度对齐截图) --><a href="/zh-TW" class="flex items-center gap-2 flex-shrink-0 group select-none"><div class="flex items-center text-2xl sm:text-3xl font-black tracking-tight font-sans"><span class="bg-gradient-to-r from-amber-500 via-orange-500 to-pink-500 bg-clip-text text-transparent group-hover:opacity-90 transition-opacity">Baseball</span><span class="text-rose-500 ml-1.5 drop-shadow-xs group-hover:scale-105 transition-transform inline-block">Bros Online</span></div></a><!-- 即时搜索框 (Center Pill-shaped 胶囊长框) --><div class="relative flex-grow max-w-lg hidden sm:block"><div class="relative"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-search absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-400 pointer-events-none"><path d="m21 21-4.34-4.34"></path><circle cx="11" cy="11" r="8"></circle></svg><input type="text" id="search-input" placeholder="搜尋遊戲..." data-games="[{&quot;title&quot;:&quot;Baseball Bros Online: 免費線上玩多人 IO 棒球遊戲&quot;,&quot;slug&quot;:&quot;index&quot;,&quot;url&quot;:&quot;/zh-TW&quot;,&quot;thumbnail&quot;:&quot;/images/games/baseball-bros.webp&quot;,&quot;category&quot;:&quot;baseball-games&quot;},{&quot;title&quot;:&quot;美式足球挑戰：守門員遊戲&quot;,&quot;slug&quot;:&quot;american-football-challenge&quot;,&quot;url&quot;:&quot;/zh-TW/game/american-football-challenge&quot;,&quot;thumbnail&quot;:&quot;/images/games/american-football-challenge.webp&quot;,&quot;category&quot;:&quot;football-games&quot;},{&quot;title&quot;:&quot;憤怒南瓜籃球：立即免費玩&quot;,&quot;slug&quot;:&quot;angry-pumpkin-basketball&quot;,&quot;url&quot;:&quot;/zh-TW/game/angry-pumpkin-basketball&quot;,&quot;thumbnail&quot;:&quot;/images/games/angry-pumpkin-basketball.webp&quot;,&quot;category&quot;:&quot;basketball-games&quot;},{&quot;title&quot;:&quot;棒球棒：玩免費街機遊戲 | 線上棒球兄弟&quot;,&quot;slug&quot;:&quot;baseball-bat&quot;,&quot;url&quot;:&quot;/zh-TW/game/baseball-bat&quot;,&quot;thumbnail&quot;:&quot;/images/games/baseball-bat.webp&quot;,&quot;category&quot;:&quot;baseball-games&quot;},{&quot;title&quot;:&quot;棒球小子：擊出更遠，升級你的能力&quot;,&quot;slug&quot;:&quot;baseball-boy&quot;,&quot;url&quot;:&quot;/zh-TW/game/baseball-boy&quot;,&quot;thumbnail&quot;:&quot;/images/games/baseball-boy.webp&quot;,&quot;category&quot;:&quot;baseball-games&quot;},{&quot;title&quot;:&quot;棒球兄弟線上：免費暢玩多人IO棒球&quot;,&quot;slug&quot;:&quot;baseball-bros&quot;,&quot;url&quot;:&quot;/zh-TW/game/baseball-bros&quot;,&quot;thumbnail&quot;:&quot;/images/games/baseball-bros.webp&quot;,&quot;category&quot;:&quot;baseball-games&quot;},{&quot;title&quot;:&quot;棒球英雄：精準打擊 &amp;amp; 刺激快感 | 線上棒球兄弟&quot;,&quot;slug&quot;:&quot;baseball-hero&quot;,&quot;url&quot;:&quot;/zh-TW/game/baseball-hero&quot;,&quot;thumbnail&quot;:&quot;/images/games/baseball-hero.webp&quot;,&quot;category&quot;:&quot;baseball-games&quot;},{&quot;title&quot;:&quot;籃球傳奇：免費 2 人遊戲&quot;,&quot;slug&quot;:&quot;basketball-legends&quot;,&quot;url&quot;:&quot;/zh-TW/game/basketball-legends&quot;,&quot;thumbnail&quot;:&quot;/images/games/basketball-legends.webp&quot;,&quot;category&quot;:&quot;basketball-games&quot;},{&quot;title&quot;:&quot;籃球兄弟：免費暢玩 2D 線上籃球遊戲&quot;,&quot;slug&quot;:&quot;basketbros&quot;,&quot;url&quot;:&quot;/zh-TW/game/basketbros&quot;,&quot;thumbnail&quot;:&quot;/images/games/basketbros.webp&quot;,&quot;category&quot;:&quot;basketball-games&quot;},{&quot;title&quot;:&quot;基耶利尼撞球足球：棒球兄弟線上融合足球遊戲&quot;,&quot;slug&quot;:&quot;chiellini-pool-soccer&quot;,&quot;url&quot;:&quot;/zh-TW/game/chiellini-pool-soccer&quot;,&quot;thumbnail&quot;:&quot;/images/games/chiellini-pool-soccer.webp&quot;,&quot;category&quot;:&quot;soccer-games&quot;},{&quot;title&quot;:&quot;恐龍兄弟：免費合作平台遊戲&quot;,&quot;slug&quot;:&quot;dino-bros&quot;,&quot;url&quot;:&quot;/zh-TW/game/dino-bros&quot;,&quot;thumbnail&quot;:&quot;/images/games/dino-bros.webp&quot;,&quot;category&quot;:&quot;baseball-games&quot;},{&quot;title&quot;:&quot;翻轉兄弟：免費物理平台遊戲&quot;,&quot;slug&quot;:&quot;flip-bros&quot;,&quot;url&quot;:&quot;/zh-TW/game/flip-bros&quot;,&quot;thumbnail&quot;:&quot;/images/games/flip-bros.webp&quot;,&quot;category&quot;:&quot;baseball-games&quot;},{&quot;title&quot;:&quot;足球閃電戰：玩足球比賽遊戲 | 棒球兄弟&quot;,&quot;slug&quot;:&quot;football-blitz&quot;,&quot;url&quot;:&quot;/zh-TW/game/football-blitz&quot;,&quot;thumbnail&quot;:&quot;/images/games/football-blitz.webp&quot;,&quot;category&quot;:&quot;football-games&quot;},{&quot;title&quot;:&quot;足球傳奇：免費足球遊戲&quot;,&quot;slug&quot;:&quot;football-legends&quot;,&quot;url&quot;:&quot;/zh-TW/game/football-legends&quot;,&quot;thumbnail&quot;:&quot;/images/games/football-legends.webp&quot;,&quot;category&quot;:&quot;football-games&quot;},{&quot;title&quot;:&quot;自由球足球：得分並贏得獎盃 | 棒球兄弟&quot;,&quot;slug&quot;:&quot;freekick-football&quot;,&quot;url&quot;:&quot;/zh-TW/game/freekick-football&quot;,&quot;thumbnail&quot;:&quot;/images/games/freekick-football.webp&quot;,&quot;category&quot;:&quot;football-games&quot;},{&quot;title&quot;:&quot;彈珠傳奇：免費熱帶海灘彈珠台&quot;,&quot;slug&quot;:&quot;pinball-legends&quot;,&quot;url&quot;:&quot;/zh-TW/game/pinball-legends&quot;,&quot;thumbnail&quot;:&quot;/images/games/pinball-legends.webp&quot;,&quot;category&quot;:&quot;baseball-games&quot;},{&quot;title&quot;:&quot;衝刺足球：掌控技巧，閃避飛鏟&quot;,&quot;slug&quot;:&quot;running-soccer&quot;,&quot;url&quot;:&quot;/zh-TW/game/running-soccer&quot;,&quot;thumbnail&quot;:&quot;/images/games/running-soccer.webp&quot;,&quot;category&quot;:&quot;soccer-games&quot;},{&quot;title&quot;:&quot;聖誕籃球：發射聖誕老人並獲得高分 | 線上籃球兄弟&quot;,&quot;slug&quot;:&quot;santa-basket&quot;,&quot;url&quot;:&quot;/zh-TW/game/santa-basket&quot;,&quot;thumbnail&quot;:&quot;/images/games/santa-basket.webp&quot;,&quot;category&quot;:&quot;basketball-games&quot;},{&quot;title&quot;:&quot;足球兄弟：免費雙人足球遊戲&quot;,&quot;slug&quot;:&quot;soccer-bros&quot;,&quot;url&quot;:&quot;/zh-TW/game/soccer-bros&quot;,&quot;thumbnail&quot;:&quot;/images/games/soccer-bros.webp&quot;,&quot;category&quot;:&quot;soccer-games&quot;},{&quot;title&quot;:&quot;足球挑戰：免費傳球益智遊戲 | 棒球兄弟&quot;,&quot;slug&quot;:&quot;soccer-challenge&quot;,&quot;url&quot;:&quot;/zh-TW/game/soccer-challenge&quot;,&quot;thumbnail&quot;:&quot;/images/games/soccer-challenge.webp&quot;,&quot;category&quot;:&quot;soccer-games&quot;},{&quot;title&quot;:&quot;足球衝刺：免費暢玩策略踢球挑戰&quot;,&quot;slug&quot;:&quot;soccer-dash&quot;,&quot;url&quot;:&quot;/zh-TW/game/soccer-dash&quot;,&quot;thumbnail&quot;:&quot;/images/games/soccer-dash.webp&quot;,&quot;category&quot;:&quot;soccer-games&quot;},{&quot;title&quot;:&quot;玩足球比賽 3：免費線上益智遊戲&quot;,&quot;slug&quot;:&quot;soccer-match-3&quot;,&quot;url&quot;:&quot;/zh-TW/game/soccer-match-3&quot;,&quot;thumbnail&quot;:&quot;/images/games/soccer-match-3.webp&quot;,&quot;category&quot;:&quot;soccer-games&quot;},{&quot;title&quot;:&quot;足球得分：暢玩免費足球遊戲&quot;,&quot;slug&quot;:&quot;soccer-score&quot;,&quot;url&quot;:&quot;/zh-TW/game/soccer-score&quot;,&quot;thumbnail&quot;:&quot;/images/games/soccer-score.webp&quot;,&quot;category&quot;:&quot;soccer-games&quot;},{&quot;title&quot;:&quot;超級瑪利歐兄弟：免費復古平台遊戲 | 棒球兄弟&quot;,&quot;slug&quot;:&quot;super-mario-bros&quot;,&quot;url&quot;:&quot;/zh-TW/game/super-mario-bros&quot;,&quot;thumbnail&quot;:&quot;/images/games/super-mario-bros.webp&quot;,&quot;category&quot;:&quot;baseball-games&quot;},{&quot;title&quot;:&quot;玩超級足球免費版 - 90 秒足球動作&quot;,&quot;slug&quot;:&quot;super-soccer&quot;,&quot;url&quot;:&quot;/zh-TW/game/super-soccer&quot;,&quot;thumbnail&quot;:&quot;/images/games/super-soccer.webp&quot;,&quot;category&quot;:&quot;soccer-games&quot;},{&quot;title&quot;:&quot;摔角兄弟：免費 2 人摔角遊戲線上玩&quot;,&quot;slug&quot;:&quot;wrestle-bros&quot;,&quot;url&quot;:&quot;/zh-TW/game/wrestle-bros&quot;,&quot;thumbnail&quot;:&quot;/images/games/wrestle-bros.webp&quot;,&quot;category&quot;:&quot;baseball-games&quot;}]" data-no-results="未找到相關遊戲" class="w-full pl-11 pr-4 py-2 text-sm bg-neutral-100/80 dark:bg-neutral-900 border border-neutral-200/70 dark:border-neutral-800 rounded-full focus:outline-hidden focus:ring-2 focus:ring-amber-500 focus:bg-white dark:focus:bg-neutral-900 text-neutral-900 dark:text-white placeholder-neutral-400 transition-all shadow-inner/10"></div><!-- 搜索下拉结果浮层 --><div id="search-results" class="hidden absolute top-full left-0 right-0 mt-2 bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-2xl shadow-xl overflow-hidden z-50 max-h-80 overflow-y-auto"></div></div><!-- 右侧操作区：语言切换器与深浅色切换开关 --><div class="flex items-center gap-2 sm:gap-3"><!-- 语言切换器 (Starwind UI Dropdown) --><div class="relative inline-block text-left"><div data-sw-menu data-modal="false" data-close-delay="200" data-state="closed" class="relative" align="end" data-slot="dropdown"><button type="button" data-sw-menu-trigger aria-haspopup="menu" aria-expanded="false" data-state="closed" class="justify-center focus-visible:ring-outline/50 outline-none focus-visible:ring-3 disabled:pointer-events-none inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-full text-xs font-semibold bg-neutral-100 dark:bg-neutral-800 hover:bg-neutral-200 dark:hover:bg-neutral-700 text-neutral-700 dark:text-neutral-200 border border-neutral-300/80 dark:border-neutral-700 transition-colors cursor-pointer shadow-xs focus:outline-hidden focus:ring-2 focus:ring-amber-500" aria-label="選擇語言" title="選擇語言" data-slot="dropdown-trigger"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-globe w-3.5 h-3.5 text-neutral-500 dark:text-neutral-400"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg><span class="font-semibold text-neutral-800 dark:text-neutral-100">ZH-TW</span><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-chevron-down w-3 h-3 text-neutral-400 opacity-70"><path d="m6 9 6 6 6-6"></path></svg></button><div data-sw-menu-portal data-sw-portal-placement="runtime" data-placement="pending" data-slot="dropdown-portal"><div data-sw-menu-popup role="menu" tabindex="-1" data-state="closed" data-side="bottom" data-align="end" data-side-offset="4" data-avoid-collisions="true" hidden class="text-popover-foreground p-1 data-[state=open]:animate-in fade-in zoom-in-95 outline-none data-[state=closed]:animate-out data-[state=closed]:fill-mode-forwards fade-out zoom-out-95 data-[side=bottom]:slide-in-from-top-2 data-[side=bottom]:slide-out-to-top-2 data-[side=top]:slide-in-from-bottom-2 data-[side=top]:slide-out-to-bottom-2 data-[side=right]:slide-in-from-left-2 data-[side=right]:slide-out-to-left-2 data-[side=left]:slide-in-from-right-2 data-[side=left]:slide-out-to-right-2 origin-(--transform-origin) pointer-events-auto fixed isolate will-change-transform min-w-[9rem] py-1 bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-xl shadow-lg z-50 overflow-hidden" data-slot="dropdown-content"><a data-sw-menu-link-item href="/" role="menuitem" tabindex="0" data-close-on-click="true" class="data-highlighted:bg-accent data-highlighted:text-accent-foreground focus:text-accent-foreground hover:text-accent-foreground relative gap-2 rounded-sm data-disabled:pointer-events-none data-disabled:opacity-50 group/dropdown-item [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 flex items-center justify-between px-3 py-2 text-xs transition-colors cursor-pointer outline-hidden select-none text-neutral-700 dark:text-neutral-200 hover:bg-neutral-100 dark:hover:bg-neutral-800 focus:bg-neutral-100 dark:focus:bg-neutral-800" data-slot="dropdown-link-item"><span class="flex items-center gap-1.5"><span class="uppercase font-mono text-[10px] px-1 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-600 dark:text-neutral-400">en</span><span>English</span></span></a><a data-sw-menu-link-item href="/zh-CN" role="menuitem" tabindex="0" data-close-on-click="true" class="data-highlighted:bg-accent data-highlighted:text-accent-foreground focus:text-accent-foreground hover:text-accent-foreground relative gap-2 rounded-sm data-disabled:pointer-events-none data-disabled:opacity-50 group/dropdown-item [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 flex items-center justify-between px-3 py-2 text-xs transition-colors cursor-pointer outline-hidden select-none text-neutral-700 dark:text-neutral-200 hover:bg-neutral-100 dark:hover:bg-neutral-800 focus:bg-neutral-100 dark:focus:bg-neutral-800" data-slot="dropdown-link-item"><span class="flex items-center gap-1.5"><span class="uppercase font-mono text-[10px] px-1 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-600 dark:text-neutral-400">zh-CN</span><span>简体中文</span></span></a><a data-sw-menu-link-item href="/zh-TW" role="menuitem" tabindex="0" data-close-on-click="true" class="data-highlighted:bg-accent data-highlighted:text-accent-foreground focus:bg-accent focus:text-accent-foreground hover:bg-accent hover:text-accent-foreground relative gap-2 rounded-sm data-disabled:pointer-events-none data-disabled:opacity-50 group/dropdown-item [&amp;>svg]:size-4 [&amp;>svg]:shrink-0 flex items-center justify-between px-3 py-2 text-xs transition-colors cursor-pointer outline-hidden select-none font-semibold bg-amber-500/10 text-amber-600 dark:text-amber-400" data-slot="dropdown-link-item"><span class="flex items-center gap-1.5"><span class="uppercase font-mono text-[10px] px-1 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-neutral-600 dark:text-neutral-400">zh-TW</span><span>繁體中文</span></span><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-check w-3.5 h-3.5 text-amber-500"><path d="M20 6 9 17l-5-5"></path></svg></a></div></div></div><script type="module" src="/_astro/MenuRoot.astro_astro_type_script_index_0_lang.CRNbUg5F.js"></script></div><!-- 主题切换切换开关 (Moon / Sun Toggle Pill) --><button id="theme-toggle-btn" type="button" class="relative flex items-center justify-between w-14 h-8 p-1 rounded-full bg-neutral-200 dark:bg-neutral-800 cursor-pointer border border-neutral-300/80 dark:border-neutral-700 transition-colors shadow-inner shrink-0" aria-label="切換主題" title="切換主題"><!-- 月亮图标 (暗色) --><span class="w-6 h-6 flex items-center justify-center text-xs text-neutral-500 dark:text-amber-400 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-moon w-3.5 h-3.5"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"></path></svg></span><!-- 太阳图标 (亮色) --><span class="w-6 h-6 flex items-center justify-center text-xs text-amber-500 dark:text-neutral-500 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-sun w-3.5 h-3.5"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path><path d="M2 12h2"></path><path d="M20 12h2"></path><path d="m6.34 17.66-1.41 1.41"></path><path d="m19.07 4.93-1.41 1.41"></path></svg></span><!-- 滑块圆珠 --><div id="theme-thumb" class="absolute left-1 top-1 w-6 h-6 rounded-full bg-white dark:bg-neutral-900 shadow-md transform transition-transform duration-200 dark:translate-x-6 flex items-center justify-center pointer-events-none"><div class="w-2 h-2 rounded-full bg-amber-400"></div></div></button></div></div></header><script type="module">var e=document.getElementById(`search-input`),t=document.getElementById(`search-results`);if(e&&t){let n=JSON.parse(e.dataset.games||`[]`);e.addEventListener(`input`,r=>{let i=r.target.value.trim().toLowerCase();if(!i){t.classList.add(`hidden`),t.innerHTML=``;return}let a=n.filter(e=>e.title.toLowerCase().includes(i)||e.category&&e.category.toLowerCase().includes(i)).slice(0,6);t.innerHTML=a.length===0?`<div class="p-4 text-xs text-neutral-500 dark:text-neutral-400 text-center">${e.dataset.noResults||`No games found`}</div>`:a.map(e=>`
+          <a href="${e.url||`/game/${e.slug}`}" class="flex items-center gap-3 p-3 hover:bg-neutral-100 dark:hover:bg-neutral-800 transition border-b border-neutral-100 dark:border-neutral-800 last:border-0">
+            <img src="${e.thumbnail}" alt="${e.title}" class="w-10 h-10 object-cover rounded-lg bg-neutral-200 dark:bg-neutral-950 flex-shrink-0" />
+            <div class="min-w-0">
+              <div class="text-sm font-bold text-neutral-800 dark:text-white truncate">${e.title}</div>
+              <div class="text-xs text-amber-500 dark:text-amber-400">${e.category}</div>
+            </div>
+          </a>
+        `).join(``),t.classList.remove(`hidden`)}),document.addEventListener(`click`,n=>{!e.contains(n.target)&&!t.contains(n.target)&&t.classList.add(`hidden`)})}var n=document.getElementById(`theme-toggle-btn`);n&&n.addEventListener(`click`,()=>{let e=document.documentElement.classList.toggle(`dark`);localStorage.setItem(`theme`,e?`dark`:`light`)});</script><!-- 核心内容区 (自适应现代宽屏布局) --><main class="flex-1 w-full max-w-[1600px] mx-auto px-2 sm:px-4 md:px-6 py-4 sm:py-6"><div class="flex flex-col md:flex-row gap-5 lg:gap-6 items-start"><div class="w-full md:w-52 shrink-0 order-2 md:order-1"><aside class="w-full md:w-52 shrink-0 md:sticky md:top-20 self-start space-y-4"><div class="bg-white/80 dark:bg-neutral-900/70 border border-neutral-200/80 dark:border-neutral-800 rounded-2xl p-2.5 shadow-xs backdrop-blur-xs"><!-- 顶部核心导航 (Home, History, Random 对齐截图) --><ul class="space-y-1 text-sm font-medium"><li><a href="/zh-TW" class="flex items-center gap-3 px-3.5 py-2.5 rounded-xl transition bg-neutral-200/80 dark:bg-neutral-800 text-neutral-950 dark:text-white font-bold shadow-xs"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-house w-4 h-4 text-neutral-700 dark:text-neutral-300"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path><path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg><span>首頁</span></a></li><li><a href="/zh-TW#popular-games" class="flex items-center gap-3 px-3.5 py-2.5 rounded-xl text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-800/60 hover:text-neutral-950 dark:hover:text-white transition"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-history w-4 h-4 text-neutral-500"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path><path d="M3 3v5h5"></path><path d="M12 7v5l4 2"></path></svg><span>歷史記錄</span></a></li><li><button id="random-game-btn" type="button" data-slugs="[&quot;american-football-challenge&quot;,&quot;angry-pumpkin-basketball&quot;,&quot;baseball-bat&quot;,&quot;baseball-boy&quot;,&quot;baseball-bros&quot;,&quot;baseball-hero&quot;,&quot;basketball-legends&quot;,&quot;basketbros&quot;,&quot;chiellini-pool-soccer&quot;,&quot;dino-bros&quot;,&quot;flip-bros&quot;,&quot;football-blitz&quot;,&quot;football-legends&quot;,&quot;freekick-football&quot;,&quot;pinball-legends&quot;,&quot;running-soccer&quot;,&quot;santa-basket&quot;,&quot;soccer-bros&quot;,&quot;soccer-challenge&quot;,&quot;soccer-dash&quot;,&quot;soccer-match-3&quot;,&quot;soccer-score&quot;,&quot;super-mario-bros&quot;,&quot;super-soccer&quot;,&quot;wrestle-bros&quot;]" data-locale="zh-tw" data-default-locale="en" class="w-full flex items-center gap-3 px-3.5 py-2.5 rounded-xl text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-800/60 hover:text-neutral-950 dark:hover:text-white transition text-left cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-shuffle w-4 h-4 text-neutral-500"><path d="m18 14 4 4-4 4"></path><path d="m18 2 4 4-4 4"></path><path d="M2 18h1.973a4 4 0 0 0 3.3-1.7l5.454-8.6a4 4 0 0 1 3.3-1.7H22"></path><path d="M2 6h1.972a4 4 0 0 1 3.6 2.2"></path><path d="M22 18h-6.041a4 4 0 0 1-3.3-1.8l-.359-.45"></path></svg><span>隨機遊戲</span></button></li></ul><!-- 分类导航分割线 --><div class="h-px bg-neutral-200/80 dark:border-neutral-800 my-2 mx-1"></div><!-- 游戏分类 (带统一 Gamepad 图标) --><ul class="space-y-1 text-sm font-medium"><li><a href="/zh-TW/games/baseball-games" class="flex items-center justify-between px-3 py-2 rounded-xl transition text-neutral-600 dark:text-neutral-400 hover:bg-neutral-100 dark:hover:bg-neutral-800/50 hover:text-neutral-900 dark:hover:text-neutral-100"><div class="flex items-center gap-2.5 truncate"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-gamepad-2 w-4 h-4 text-neutral-400 dark:text-neutral-500 shrink-0"><line x1="6" x2="10" y1="11" y2="11"></line><line x1="8" x2="8" y1="9" y2="13"></line><line x1="15" x2="15.01" y1="12" y2="12"></line><line x1="18" x2="18.01" y1="10" y2="10"></line><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z"></path></svg><span class="truncate">棒球遊戲</span></div></a></li><li><a href="/zh-TW/games/basketball-games" class="flex items-center justify-between px-3 py-2 rounded-xl transition text-neutral-600 dark:text-neutral-400 hover:bg-neutral-100 dark:hover:bg-neutral-800/50 hover:text-neutral-900 dark:hover:text-neutral-100"><div class="flex items-center gap-2.5 truncate"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-gamepad-2 w-4 h-4 text-neutral-400 dark:text-neutral-500 shrink-0"><line x1="6" x2="10" y1="11" y2="11"></line><line x1="8" x2="8" y1="9" y2="13"></line><line x1="15" x2="15.01" y1="12" y2="12"></line><line x1="18" x2="18.01" y1="10" y2="10"></line><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z"></path></svg><span class="truncate">籃球遊戲</span></div></a></li><li><a href="/zh-TW/games/soccer-games" class="flex items-center justify-between px-3 py-2 rounded-xl transition text-neutral-600 dark:text-neutral-400 hover:bg-neutral-100 dark:hover:bg-neutral-800/50 hover:text-neutral-900 dark:hover:text-neutral-100"><div class="flex items-center gap-2.5 truncate"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-gamepad-2 w-4 h-4 text-neutral-400 dark:text-neutral-500 shrink-0"><line x1="6" x2="10" y1="11" y2="11"></line><line x1="8" x2="8" y1="9" y2="13"></line><line x1="15" x2="15.01" y1="12" y2="12"></line><line x1="18" x2="18.01" y1="10" y2="10"></line><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z"></path></svg><span class="truncate">足球遊戲</span></div></a></li><li><a href="/zh-TW/games/football-games" class="flex items-center justify-between px-3 py-2 rounded-xl transition text-neutral-600 dark:text-neutral-400 hover:bg-neutral-100 dark:hover:bg-neutral-800/50 hover:text-neutral-900 dark:hover:text-neutral-100"><div class="flex items-center gap-2.5 truncate"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-gamepad-2 w-4 h-4 text-neutral-400 dark:text-neutral-500 shrink-0"><line x1="6" x2="10" y1="11" y2="11"></line><line x1="8" x2="8" y1="9" y2="13"></line><line x1="15" x2="15.01" y1="12" y2="12"></line><line x1="18" x2="18.01" y1="10" y2="10"></line><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z"></path></svg><span class="truncate">美式橄欖球遊戲</span></div></a></li></ul></div><!-- 信任与免责提示卡片 (替代 emoji 为 ShieldCheck) --><div class="bg-white/60 dark:bg-neutral-900/40 border border-neutral-200/70 dark:border-neutral-800/80 rounded-2xl p-3.5 text-xs text-neutral-500 dark:text-neutral-400 space-y-1.5 hidden md:block"><div class="font-bold text-neutral-700 dark:text-neutral-300 flex items-center gap-1.5"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-shield-check w-4 h-4 text-emerald-500"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg><span>100% 免費且安全</span></div><p class="leading-relaxed text-[11px]">瀏覽器即點即玩，電腦與手機均無需下載任何客戶端。</p></div></aside><script type="module">var e=document.getElementById(`random-game-btn`);e&&e.addEventListener(`click`,()=>{let t=JSON.parse(e.dataset.slugs||`[]`),n=e.dataset.locale||``,r=e.dataset.defaultLocale||`en`,i=!n||n===r?``:`/${n}`;if(t.length>0){let e=t[Math.floor(Math.random()*t.length)];window.location.href=`${i}/game/${e}`}else window.location.href=`${i||`/`}`});</script></div><div class="flex-1 w-full min-w-0 space-y-6 sm:space-y-8 order-1 md:order-2"><!-- 1. 舞台区：左右摩天楼对称广告 + 中间主打游戏门面卡片 --><section class="flex items-center justify-center gap-4"><div class="flex-1 min-w-0"><div class="relative w-full rounded-3xl overflow-hidden transition-all duration-200" id="game-player-root" data-astro-cid-uln7b5jv><!-- Player Viewport Container --><div class="game-viewport relative w-full aspect-16/10 sm:aspect-16/9 bg-neutral-900 rounded-2xl overflow-hidden shadow-md border border-neutral-200/80 dark:border-neutral-800" data-astro-cid-uln7b5jv><!-- Facade Poster Card (Performance-first deferred loading) --><div id="game-poster" class="absolute inset-0 z-10 flex flex-col md:flex-row items-center justify-between p-6 sm:p-8 md:p-10 bg-[#FAF7EE] dark:bg-[#18181b] transition-all duration-300 overflow-hidden" data-astro-cid-uln7b5jv><!-- Subtle Background Texture --><div class="absolute inset-0 opacity-[0.03] dark:opacity-[0.05] pointer-events-none bg-[radial-gradient(#000_1px,transparent_1px)] [background-size:16px_16px]" data-astro-cid-uln7b5jv></div><!-- Left Column: Thumbnail --><div class="w-full md:w-5/12 h-48 sm:h-64 md:h-full relative shrink-0 flex items-center justify-center" data-astro-cid-uln7b5jv><div class="relative w-full h-full max-w-[280px] md:max-w-none rounded-2xl overflow-hidden shadow-lg border border-amber-200/60 dark:border-neutral-700/60 group" data-astro-cid-uln7b5jv><img src="/images/games/baseball-bros.webp" alt="Baseball Bros Online: 免費線上玩多人 IO 棒球遊戲" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-astro-cid-uln7b5jv><div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-60" data-astro-cid-uln7b5jv></div><span class="absolute bottom-3 left-3 text-xs font-bold text-white px-2.5 py-1 rounded-md bg-black/40 backdrop-blur-xs" data-astro-cid-uln7b5jv>Free Online</span></div></div><!-- Right Column: Game Info & CTA --><div class="w-full md:w-7/12 md:pl-10 flex flex-col justify-center items-center md:items-start text-center md:text-left mt-4 md:mt-0 relative z-20" data-astro-cid-uln7b5jv><!-- Title --><h1 class="text-2xl sm:text-3xl md:text-4xl font-black text-[#1E293B] dark:text-white tracking-tight leading-tight mb-3" data-astro-cid-uln7b5jv>Baseball Bros Online: 免費線上玩多人 IO 棒球遊戲</h1><!-- Description --><p class="text-xs sm:text-sm text-neutral-600 dark:text-neutral-300 line-clamp-2 sm:line-clamp-3 mb-6 max-w-xl leading-relaxed" data-astro-cid-uln7b5jv>快節奏多人線上棒球動作遊戲，操作簡單極易上手，全力揮棒打出全壘打！</p><!-- CTA Play Button (居中) --><div class="flex items-center justify-center md:justify-start w-full" data-astro-cid-uln7b5jv><button id="play-game-btn" type="button" class="inline-flex items-center justify-center gap-3 px-10 py-3.5 bg-gradient-to-r from-[#FF5233] to-[#F04423] hover:from-[#ff6247] hover:to-[#ff3814] text-white font-black text-lg rounded-full shadow-lg hover:shadow-xl hover:shadow-orange-500/25 active:scale-95 transition-all cursor-pointer group" aria-label="Play Baseball Bros Online: 免費線上玩多人 IO 棒球遊戲 now" data-astro-cid-uln7b5jv><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" data-astro-cid-uln7b5jv="true" class="lucide lucide-play w-6 h-6 fill-current transition-transform group-hover:scale-110"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"></path></svg><span data-astro-cid-uln7b5jv>Play game</span></button></div></div></div><!-- Active Game Iframe Container --><div id="game-frame-container" class="w-full h-full hidden bg-black" data-astro-cid-uln7b5jv><!-- Injected iframe --></div></div><!-- Bottom Interactive Bar --><div class="flex items-center justify-between px-3 py-2.5 mt-2 bg-transparent text-neutral-700 dark:text-neutral-300 text-sm" data-astro-cid-uln7b5jv><div class="flex items-center gap-2" data-astro-cid-uln7b5jv><span class="font-bold text-neutral-900 dark:text-white truncate max-w-[160px] sm:max-w-xs" data-astro-cid-uln7b5jv>Baseball Bros Online: 免費線上玩多人 IO 棒球遊戲</span></div><div class="flex items-center gap-2 sm:gap-3 text-neutral-500 dark:text-neutral-400" data-astro-cid-uln7b5jv><!-- Like Button --><button id="like-game-btn" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-neutral-200 dark:border-neutral-800 hover:border-amber-500 hover:text-amber-600 dark:hover:text-amber-400 transition-all cursor-pointer text-xs font-semibold" title="Like this game" aria-label="Like this game" data-astro-cid-uln7b5jv><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" id="like-icon" data-astro-cid-uln7b5jv="true" class="lucide lucide-thumbs-up w-3.5 h-3.5"><path d="M7 10v12"></path><path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2a3.13 3.13 0 0 1 3 3.88Z"></path></svg><span id="like-count" data-astro-cid-uln7b5jv>560</span></button><!-- Share Button --><button id="share-game-btn" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-neutral-200 dark:border-neutral-800 hover:border-amber-500 hover:text-amber-600 dark:hover:text-amber-400 transition-all cursor-pointer text-xs font-semibold" title="Share Game" aria-label="Share Game" data-astro-cid-uln7b5jv><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" data-astro-cid-uln7b5jv="true" class="lucide lucide-share-2 w-3.5 h-3.5"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" x2="15.42" y1="13.51" y2="17.49"></line><line x1="15.41" x2="8.59" y1="6.51" y2="10.49"></line></svg><span id="share-count" data-astro-cid-uln7b5jv>88</span></button><!-- Reload Button --><button id="reload-game-btn" class="p-1.5 hover:text-neutral-900 dark:hover:text-white transition-colors cursor-pointer" title="Reload Game" aria-label="Reload Game" data-astro-cid-uln7b5jv><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" data-astro-cid-uln7b5jv="true" class="lucide lucide-rotate-cw w-4 h-4"><path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8"></path><path d="M21 3v5h-5"></path></svg></button><!-- Fullscreen Button --><button id="fullscreen-game-btn" class="p-1.5 hover:text-neutral-900 dark:hover:text-white transition-colors cursor-pointer" title="Toggle Fullscreen" aria-label="Toggle Fullscreen" data-astro-cid-uln7b5jv><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" data-astro-cid-uln7b5jv="true" class="lucide lucide-maximize w-4 h-4"><path d="M8 3H5a2 2 0 0 0-2 2v3"></path><path d="M21 8V5a2 2 0 0 0-2-2h-3"></path><path d="M3 16v3a2 2 0 0 0 2 2h3"></path><path d="M16 21h3a2 2 0 0 0 2-2v-3"></path></svg></button></div></div></div><script>(function(){const iframeUrl = "https://baseball-game.io/game/baseball-bros/";
+const title = "Baseball Bros Online: 免費線上玩多人 IO 棒球遊戲";
+const gameId = "index";
+const initialLikes = 560;
+const initialShares = 88;
+
+  const playBtn = document.getElementById('play-game-btn');
+  const poster = document.getElementById('game-poster');
+  const frameContainer = document.getElementById('game-frame-container');
+  const reloadBtn = document.getElementById('reload-game-btn');
+  const fullscreenBtn = document.getElementById('fullscreen-game-btn');
+  const shareBtn = document.getElementById('share-game-btn');
+  const likeBtn = document.getElementById('like-game-btn');
+  const likeIcon = document.getElementById('like-icon');
+  const likeCountEl = document.getElementById('like-count');
+  const shareCountEl = document.getElementById('share-count');
+  const playerRoot = document.getElementById('game-player-root');
+
+  const LIKE_STORAGE_KEY = `liked_${gameId}`;
+
+  // Check if already liked locally
+  if (localStorage.getItem(LIKE_STORAGE_KEY)) {
+    markLikedActive();
+  }
+
+  function markLikedActive() {
+    likeBtn?.classList.add('text-amber-500', 'border-amber-500', 'bg-amber-500/10');
+    likeIcon?.classList.add('fill-current');
+  }
+
+  function loadGame() {
+    if (!frameContainer || !poster) return;
+    poster.classList.add('opacity-0', 'pointer-events-none');
+    setTimeout(() => {
+      poster.style.display = 'none';
+      frameContainer.classList.remove('hidden');
+      frameContainer.innerHTML = `
+        <iframe 
+          id="active-game-iframe"
+          src="${iframeUrl}" 
+          title="${title}" 
+          class="w-full h-full border-0" 
+          allow="autoplay; fullscreen; keyboard-map *" 
+          loading="eager"
+        ></iframe>
+      `;
+    }, 200);
+
+    // Trigger GA4 game_play event
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'game_play', {
+        game_id: gameId,
+        game_title: title
+      });
+    }
+  }
+
+  playBtn?.addEventListener('click', loadGame);
+
+  reloadBtn?.addEventListener('click', () => {
+    const iframe = document.getElementById('active-game-iframe');
+    if (iframe) {
+      iframe.src = iframeUrl;
+    } else {
+      loadGame();
+    }
+  });
+
+  // Like interaction (optimistic +1)
+  likeBtn?.addEventListener('click', () => {
+    if (localStorage.getItem(LIKE_STORAGE_KEY)) {
+      alert('You have already liked this game! Thank you for your support.');
+      return;
+    }
+
+    localStorage.setItem(LIKE_STORAGE_KEY, 'true');
+    markLikedActive();
+
+    if (likeCountEl) {
+      const current = parseInt(likeCountEl.textContent.replace(/[^0-9]/g, '') || initialLikes.toString(), 10);
+      likeCountEl.textContent = (current + 1).toLocaleString();
+    }
+
+    // Trigger GA4 game_like event
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'game_like', {
+        game_id: gameId,
+        game_title: title
+      });
+    }
+  });
+
+  // Share feature
+  shareBtn?.addEventListener('click', () => {
+    const currentUrl = window.location.href;
+    const shareData = { title: title, url: currentUrl };
+
+    const updateShareCount = () => {
+      if (shareCountEl) {
+        const current = parseInt(shareCountEl.textContent.replace(/[^0-9]/g, '') || initialShares.toString(), 10);
+        shareCountEl.textContent = (current + 1).toLocaleString();
+      }
+    };
+
+    if (navigator.share) {
+      navigator.share(shareData)
+        .then(() => {
+          updateShareCount();
+          if (typeof window.gtag === 'function') {
+            window.gtag('event', 'game_share', { game_id: gameId, channel: 'native_share' });
+          }
+        })
+        .catch(() => {});
+    } else {
+      navigator.clipboard.writeText(currentUrl).then(() => {
+        alert('Game link copied to clipboard! Share it with your friends.');
+        updateShareCount();
+        if (typeof window.gtag === 'function') {
+          window.gtag('event', 'game_share', { game_id: gameId, channel: 'clipboard' });
+        }
+      });
+    }
+  });
+
+  // Fullscreen feature
+  fullscreenBtn?.addEventListener('click', () => {
+    const isWebFs = playerRoot?.classList.contains('web-fullscreen');
+    const isDocFs = Boolean(document.fullscreenElement);
+
+    if (isDocFs) {
+      document.exitFullscreen?.().catch(() => {});
+      return;
+    }
+
+    if (isWebFs) {
+      playerRoot?.classList.remove('web-fullscreen');
+      return;
+    }
+
+    if (playerRoot?.requestFullscreen) {
+      playerRoot.requestFullscreen().catch(() => {
+        playerRoot?.classList.add('web-fullscreen');
+      });
+    } else {
+      playerRoot?.classList.add('web-fullscreen');
+    }
+  });
+
+  document.addEventListener('fullscreenchange', () => {
+    if (!document.fullscreenElement) {
+      playerRoot?.classList.remove('web-fullscreen');
+    }
+  });
+})();</script></div></section><!-- 2. 播放器正下方横向广告位 (AdSense / Adsterra) --><section class="py-1"></section><!-- 3. 热门推荐游戏流 (两组 1大 + 4小，最多展示 10 款游戏) --><section id="popular-games" class="space-y-4 sm:space-y-6"><div class="flex items-center justify-between"><div class="flex items-center gap-2"><div class="w-7 h-7 rounded-lg bg-orange-500/10 dark:bg-orange-500/20 flex items-center justify-center text-orange-500"><svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path></svg></div><h2 class="text-lg sm:text-xl font-black tracking-tight text-neutral-900 dark:text-white">熱門遊戲</h2></div><a href="/zh-TW/games/baseball-games" class="inline-flex items-center gap-1 text-xs text-neutral-500 dark:text-neutral-400 hover:text-amber-500 dark:hover:text-amber-400 font-semibold transition-colors group"><span>More</span><span class="group-hover:translate-x-0.5 transition-transform">→</span></a></div><div class="grid gap-4 sm:gap-5 items-stretch grid-cols-1 xl:grid-cols-2"><div class="grid gap-3 sm:gap-3.5 items-stretch grid-cols-1 sm:grid-cols-2"><div class="h-full min-h-[220px] sm:min-h-0"><a href="/zh-TW/game/american-football-challenge" class="group relative flex flex-col justify-end bg-neutral-900 rounded-2xl sm:rounded-3xl overflow-hidden border border-neutral-200/80 dark:border-neutral-800 hover:border-amber-400 dark:hover:border-amber-400 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-neutral-300/40 dark:hover:shadow-black/60 h-full min-h-[200px] sm:min-h-[260px]"><!-- 全景背景封面图 --><img src="/images/games/american-football-challenge.webp" alt="美式足球挑戰：守門員遊戲" loading="lazy" decoding="async" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"><!-- 多层渐变暗色遮罩保障文字与按钮对比度 --><div class="absolute inset-0 bg-gradient-to-t from-neutral-950 via-neutral-950/40 to-neutral-950/10 group-hover:via-neutral-950/30 transition-colors"></div><!-- 左上角大号角标 --><div class="absolute top-3 left-3 sm:top-4 sm:left-4 z-10 px-2.5 py-1 rounded-full bg-gradient-to-r from-orange-500 to-amber-500 text-white text-xs font-black tracking-wide flex items-center gap-1 shadow-md uppercase"><span>熱門</span><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-flame w-3.5 h-3.5 fill-current text-amber-200"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg></div><!-- 悬停/常显 Play 按钮 --><div class="absolute inset-0 flex items-center justify-center pointer-events-none"><div class="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-white/95 text-neutral-900 flex items-center justify-center shadow-xl shadow-black/40 transform group-hover:scale-110 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-play w-5 h-5 sm:w-6 sm:h-6 fill-current ml-0.5 text-rose-500"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"></path></svg></div></div><!-- 底部卡片信息 --><div class="relative z-10 p-3.5 sm:p-5 flex flex-col justify-end gap-1 sm:gap-2"><div class="flex items-center gap-2 text-xs font-semibold text-amber-400"><span class="px-2 py-0.5 rounded-md bg-amber-500/20 backdrop-blur-xs uppercase text-[10px] tracking-wider font-bold">美式橄欖球遊戲</span><span class="flex items-center gap-1 text-neutral-300 text-[11px]"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-flame w-3.5 h-3.5 text-amber-400 fill-current"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg>120 次遊玩</span></div><h3 class="font-black text-white text-base sm:text-xl leading-tight line-clamp-2 group-hover:text-amber-300 transition-colors drop-shadow-sm">美式足球挑戰：守門員遊戲</h3></div></a></div><div class="grid grid-cols-2 gap-2.5 sm:gap-3 h-full"><a href="/zh-TW/game/angry-pumpkin-basketball" class="group relative flex flex-col bg-white dark:bg-neutral-900 rounded-2xl overflow-hidden border border-neutral-200/80 dark:border-neutral-800 hover:border-amber-400 dark:hover:border-amber-400 transition-all duration-200 hover:-translate-y-1 hover:shadow-lg hover:shadow-neutral-200/60 dark:hover:shadow-black/40 h-full"><!-- 封面图视窗容器 --><div class="relative aspect-16/10 w-full overflow-hidden bg-neutral-100 dark:bg-neutral-950"><img src="/images/games/angry-pumpkin-basketball.webp" alt="憤怒南瓜籃球：立即免費玩" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"><!-- Top-left Badge --><div class="absolute top-2 left-2 px-2 py-0.5 rounded-full bg-gradient-to-r from-orange-500 to-amber-500 text-white text-[10px] font-black tracking-wide flex items-center gap-1 shadow-xs uppercase"><span>熱門</span><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-flame w-3 h-3 fill-current text-amber-200"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg></div><!-- 悬停轻量半透明播放按钮遮罩 --><div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center"><div class="w-9 h-9 rounded-full bg-white/90 text-neutral-900 flex items-center justify-center shadow-md transform group-hover:scale-110 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-play w-4 h-4 fill-current ml-0.5 text-rose-500"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"></path></svg></div></div></div><!-- 底部标题与信息栏 --><div class="p-2 sm:p-2.5 flex flex-col justify-between flex-1 min-w-0"><h3 class="font-bold text-neutral-800 dark:text-neutral-100 text-xs sm:text-sm truncate group-hover:text-amber-600 dark:group-hover:text-amber-400 transition-colors">憤怒南瓜籃球：立即免費玩</h3><div class="flex items-center justify-between mt-1 text-[10px] sm:text-[11px] text-neutral-500 dark:text-neutral-400 gap-1 min-w-0"><span class="capitalize truncate">籃球遊戲</span><span class="flex items-center gap-0.5 sm:gap-1 font-semibold text-neutral-600 dark:text-neutral-300 shrink-0"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-flame w-3 h-3 text-amber-500 fill-current"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg>120</span></div></div></a><a href="/zh-TW/game/baseball-bat" class="group relative flex flex-col bg-white dark:bg-neutral-900 rounded-2xl overflow-hidden border border-neutral-200/80 dark:border-neutral-800 hover:border-amber-400 dark:hover:border-amber-400 transition-all duration-200 hover:-translate-y-1 hover:shadow-lg hover:shadow-neutral-200/60 dark:hover:shadow-black/40 h-full"><!-- 封面图视窗容器 --><div class="relative aspect-16/10 w-full overflow-hidden bg-neutral-100 dark:bg-neutral-950"><img src="/images/games/baseball-bat.webp" alt="棒球棒：玩免費街機遊戲 | 線上棒球兄弟" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"><!-- Top-left Badge --><div class="absolute top-2 left-2 px-2 py-0.5 rounded-full bg-gradient-to-r from-orange-500 to-amber-500 text-white text-[10px] font-black tracking-wide flex items-center gap-1 shadow-xs uppercase"><span>熱門</span><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-flame w-3 h-3 fill-current text-amber-200"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg></div><!-- 悬停轻量半透明播放按钮遮罩 --><div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center"><div class="w-9 h-9 rounded-full bg-white/90 text-neutral-900 flex items-center justify-center shadow-md transform group-hover:scale-110 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-play w-4 h-4 fill-current ml-0.5 text-rose-500"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"></path></svg></div></div></div><!-- 底部标题与信息栏 --><div class="p-2 sm:p-2.5 flex flex-col justify-between flex-1 min-w-0"><h3 class="font-bold text-neutral-800 dark:text-neutral-100 text-xs sm:text-sm truncate group-hover:text-amber-600 dark:group-hover:text-amber-400 transition-colors">棒球棒：玩免費街機遊戲 | 線上棒球兄弟</h3><div class="flex items-center justify-between mt-1 text-[10px] sm:text-[11px] text-neutral-500 dark:text-neutral-400 gap-1 min-w-0"><span class="capitalize truncate">棒球遊戲</span><span class="flex items-center gap-0.5 sm:gap-1 font-semibold text-neutral-600 dark:text-neutral-300 shrink-0"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-flame w-3 h-3 text-amber-500 fill-current"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg>120</span></div></div></a><a href="/zh-TW/game/baseball-boy" class="group relative flex flex-col bg-white dark:bg-neutral-900 rounded-2xl overflow-hidden border border-neutral-200/80 dark:border-neutral-800 hover:border-amber-400 dark:hover:border-amber-400 transition-all duration-200 hover:-translate-y-1 hover:shadow-lg hover:shadow-neutral-200/60 dark:hover:shadow-black/40 h-full"><!-- 封面图视窗容器 --><div class="relative aspect-16/10 w-full overflow-hidden bg-neutral-100 dark:bg-neutral-950"><img src="/images/games/baseball-boy.webp" alt="棒球小子：擊出更遠，升級你的能力" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"><!-- Top-left Badge --><div class="absolute top-2 left-2 px-2 py-0.5 rounded-full bg-gradient-to-r from-indigo-500 to-purple-600 text-white text-[10px] font-black tracking-wide flex items-center gap-1 shadow-xs uppercase"><span>最新</span><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-zap w-3 h-3 fill-current text-yellow-200"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path></svg></div><!-- 悬停轻量半透明播放按钮遮罩 --><div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center"><div class="w-9 h-9 rounded-full bg-white/90 text-neutral-900 flex items-center justify-center shadow-md transform group-hover:scale-110 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-play w-4 h-4 fill-current ml-0.5 text-rose-500"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"></path></svg></div></div></div><!-- 底部标题与信息栏 --><div class="p-2 sm:p-2.5 flex flex-col justify-between flex-1 min-w-0"><h3 class="font-bold text-neutral-800 dark:text-neutral-100 text-xs sm:text-sm truncate group-hover:text-amber-600 dark:group-hover:text-amber-400 transition-colors">棒球小子：擊出更遠，升級你的能力</h3><div class="flex items-center justify-between mt-1 text-[10px] sm:text-[11px] text-neutral-500 dark:text-neutral-400 gap-1 min-w-0"><span class="capitalize truncate">棒球遊戲</span><span class="flex items-center gap-0.5 sm:gap-1 font-semibold text-neutral-600 dark:text-neutral-300 shrink-0"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-flame w-3 h-3 text-amber-500 fill-current"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg>120</span></div></div></a><a href="/zh-TW" class="group relative flex flex-col bg-white dark:bg-neutral-900 rounded-2xl overflow-hidden border border-neutral-200/80 dark:border-neutral-800 hover:border-amber-400 dark:hover:border-amber-400 transition-all duration-200 hover:-translate-y-1 hover:shadow-lg hover:shadow-neutral-200/60 dark:hover:shadow-black/40 h-full"><!-- 封面图视窗容器 --><div class="relative aspect-16/10 w-full overflow-hidden bg-neutral-100 dark:bg-neutral-950"><img src="/images/games/baseball-bros.webp" alt="棒球兄弟線上：免費暢玩多人IO棒球" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"><!-- Top-left Badge --><div class="absolute top-2 left-2 px-2 py-0.5 rounded-full bg-gradient-to-r from-orange-500 to-amber-500 text-white text-[10px] font-black tracking-wide flex items-center gap-1 shadow-xs uppercase"><span>熱門</span><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-flame w-3 h-3 fill-current text-amber-200"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg></div><!-- 悬停轻量半透明播放按钮遮罩 --><div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center"><div class="w-9 h-9 rounded-full bg-white/90 text-neutral-900 flex items-center justify-center shadow-md transform group-hover:scale-110 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-play w-4 h-4 fill-current ml-0.5 text-rose-500"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"></path></svg></div></div></div><!-- 底部标题与信息栏 --><div class="p-2 sm:p-2.5 flex flex-col justify-between flex-1 min-w-0"><h3 class="font-bold text-neutral-800 dark:text-neutral-100 text-xs sm:text-sm truncate group-hover:text-amber-600 dark:group-hover:text-amber-400 transition-colors">棒球兄弟線上：免費暢玩多人IO棒球</h3><div class="flex items-center justify-between mt-1 text-[10px] sm:text-[11px] text-neutral-500 dark:text-neutral-400 gap-1 min-w-0"><span class="capitalize truncate">棒球遊戲</span><span class="flex items-center gap-0.5 sm:gap-1 font-semibold text-neutral-600 dark:text-neutral-300 shrink-0"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-flame w-3 h-3 text-amber-500 fill-current"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg>120</span></div></div></a></div></div><div class="grid gap-3 sm:gap-3.5 items-stretch grid-cols-1 sm:grid-cols-2"><div class="h-full min-h-[220px] sm:min-h-0"><a href="/zh-TW/game/baseball-hero" class="group relative flex flex-col justify-end bg-neutral-900 rounded-2xl sm:rounded-3xl overflow-hidden border border-neutral-200/80 dark:border-neutral-800 hover:border-amber-400 dark:hover:border-amber-400 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-neutral-300/40 dark:hover:shadow-black/60 h-full min-h-[200px] sm:min-h-[260px]"><!-- 全景背景封面图 --><img src="/images/games/baseball-hero.webp" alt="棒球英雄：精準打擊 &amp;amp; 刺激快感 | 線上棒球兄弟" loading="lazy" decoding="async" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"><!-- 多层渐变暗色遮罩保障文字与按钮对比度 --><div class="absolute inset-0 bg-gradient-to-t from-neutral-950 via-neutral-950/40 to-neutral-950/10 group-hover:via-neutral-950/30 transition-colors"></div><!-- 左上角大号角标 --><div class="absolute top-3 left-3 sm:top-4 sm:left-4 z-10 px-2.5 py-1 rounded-full bg-gradient-to-r from-indigo-500 to-purple-600 text-white text-xs font-black tracking-wide flex items-center gap-1 shadow-md uppercase"><span>最新</span><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-zap w-3.5 h-3.5 fill-current text-yellow-200"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path></svg></div><!-- 悬停/常显 Play 按钮 --><div class="absolute inset-0 flex items-center justify-center pointer-events-none"><div class="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-white/95 text-neutral-900 flex items-center justify-center shadow-xl shadow-black/40 transform group-hover:scale-110 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-play w-5 h-5 sm:w-6 sm:h-6 fill-current ml-0.5 text-rose-500"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"></path></svg></div></div><!-- 底部卡片信息 --><div class="relative z-10 p-3.5 sm:p-5 flex flex-col justify-end gap-1 sm:gap-2"><div class="flex items-center gap-2 text-xs font-semibold text-amber-400"><span class="px-2 py-0.5 rounded-md bg-amber-500/20 backdrop-blur-xs uppercase text-[10px] tracking-wider font-bold">棒球遊戲</span><span class="flex items-center gap-1 text-neutral-300 text-[11px]"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-flame w-3.5 h-3.5 text-amber-400 fill-current"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg>120 次遊玩</span></div><h3 class="font-black text-white text-base sm:text-xl leading-tight line-clamp-2 group-hover:text-amber-300 transition-colors drop-shadow-sm">棒球英雄：精準打擊 &amp;amp; 刺激快感 | 線上棒球兄弟</h3></div></a></div><div class="grid grid-cols-2 gap-2.5 sm:gap-3 h-full"><a href="/zh-TW/game/basketball-legends" class="group relative flex flex-col bg-white dark:bg-neutral-900 rounded-2xl overflow-hidden border border-neutral-200/80 dark:border-neutral-800 hover:border-amber-400 dark:hover:border-amber-400 transition-all duration-200 hover:-translate-y-1 hover:shadow-lg hover:shadow-neutral-200/60 dark:hover:shadow-black/40 h-full"><!-- 封面图视窗容器 --><div class="relative aspect-16/10 w-full overflow-hidden bg-neutral-100 dark:bg-neutral-950"><img src="/images/games/basketball-legends.webp" alt="籃球傳奇：免費 2 人遊戲" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"><!-- Top-left Badge --><div class="absolute top-2 left-2 px-2 py-0.5 rounded-full bg-gradient-to-r from-orange-500 to-amber-500 text-white text-[10px] font-black tracking-wide flex items-center gap-1 shadow-xs uppercase"><span>熱門</span><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-flame w-3 h-3 fill-current text-amber-200"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg></div><!-- 悬停轻量半透明播放按钮遮罩 --><div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center"><div class="w-9 h-9 rounded-full bg-white/90 text-neutral-900 flex items-center justify-center shadow-md transform group-hover:scale-110 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-play w-4 h-4 fill-current ml-0.5 text-rose-500"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"></path></svg></div></div></div><!-- 底部标题与信息栏 --><div class="p-2 sm:p-2.5 flex flex-col justify-between flex-1 min-w-0"><h3 class="font-bold text-neutral-800 dark:text-neutral-100 text-xs sm:text-sm truncate group-hover:text-amber-600 dark:group-hover:text-amber-400 transition-colors">籃球傳奇：免費 2 人遊戲</h3><div class="flex items-center justify-between mt-1 text-[10px] sm:text-[11px] text-neutral-500 dark:text-neutral-400 gap-1 min-w-0"><span class="capitalize truncate">籃球遊戲</span><span class="flex items-center gap-0.5 sm:gap-1 font-semibold text-neutral-600 dark:text-neutral-300 shrink-0"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-flame w-3 h-3 text-amber-500 fill-current"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg>120</span></div></div></a><a href="/zh-TW/game/basketbros" class="group relative flex flex-col bg-white dark:bg-neutral-900 rounded-2xl overflow-hidden border border-neutral-200/80 dark:border-neutral-800 hover:border-amber-400 dark:hover:border-amber-400 transition-all duration-200 hover:-translate-y-1 hover:shadow-lg hover:shadow-neutral-200/60 dark:hover:shadow-black/40 h-full"><!-- 封面图视窗容器 --><div class="relative aspect-16/10 w-full overflow-hidden bg-neutral-100 dark:bg-neutral-950"><img src="/images/games/basketbros.webp" alt="籃球兄弟：免費暢玩 2D 線上籃球遊戲" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"><!-- Top-left Badge --><div class="absolute top-2 left-2 px-2 py-0.5 rounded-full bg-gradient-to-r from-orange-500 to-amber-500 text-white text-[10px] font-black tracking-wide flex items-center gap-1 shadow-xs uppercase"><span>熱門</span><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-flame w-3 h-3 fill-current text-amber-200"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg></div><!-- 悬停轻量半透明播放按钮遮罩 --><div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center"><div class="w-9 h-9 rounded-full bg-white/90 text-neutral-900 flex items-center justify-center shadow-md transform group-hover:scale-110 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-play w-4 h-4 fill-current ml-0.5 text-rose-500"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"></path></svg></div></div></div><!-- 底部标题与信息栏 --><div class="p-2 sm:p-2.5 flex flex-col justify-between flex-1 min-w-0"><h3 class="font-bold text-neutral-800 dark:text-neutral-100 text-xs sm:text-sm truncate group-hover:text-amber-600 dark:group-hover:text-amber-400 transition-colors">籃球兄弟：免費暢玩 2D 線上籃球遊戲</h3><div class="flex items-center justify-between mt-1 text-[10px] sm:text-[11px] text-neutral-500 dark:text-neutral-400 gap-1 min-w-0"><span class="capitalize truncate">籃球遊戲</span><span class="flex items-center gap-0.5 sm:gap-1 font-semibold text-neutral-600 dark:text-neutral-300 shrink-0"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-flame w-3 h-3 text-amber-500 fill-current"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg>120</span></div></div></a><a href="/zh-TW/game/chiellini-pool-soccer" class="group relative flex flex-col bg-white dark:bg-neutral-900 rounded-2xl overflow-hidden border border-neutral-200/80 dark:border-neutral-800 hover:border-amber-400 dark:hover:border-amber-400 transition-all duration-200 hover:-translate-y-1 hover:shadow-lg hover:shadow-neutral-200/60 dark:hover:shadow-black/40 h-full"><!-- 封面图视窗容器 --><div class="relative aspect-16/10 w-full overflow-hidden bg-neutral-100 dark:bg-neutral-950"><img src="/images/games/chiellini-pool-soccer.webp" alt="基耶利尼撞球足球：棒球兄弟線上融合足球遊戲" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"><!-- Top-left Badge --><div class="absolute top-2 left-2 px-2 py-0.5 rounded-full bg-gradient-to-r from-indigo-500 to-purple-600 text-white text-[10px] font-black tracking-wide flex items-center gap-1 shadow-xs uppercase"><span>最新</span><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-zap w-3 h-3 fill-current text-yellow-200"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path></svg></div><!-- 悬停轻量半透明播放按钮遮罩 --><div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center"><div class="w-9 h-9 rounded-full bg-white/90 text-neutral-900 flex items-center justify-center shadow-md transform group-hover:scale-110 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-play w-4 h-4 fill-current ml-0.5 text-rose-500"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"></path></svg></div></div></div><!-- 底部标题与信息栏 --><div class="p-2 sm:p-2.5 flex flex-col justify-between flex-1 min-w-0"><h3 class="font-bold text-neutral-800 dark:text-neutral-100 text-xs sm:text-sm truncate group-hover:text-amber-600 dark:group-hover:text-amber-400 transition-colors">基耶利尼撞球足球：棒球兄弟線上融合足球遊戲</h3><div class="flex items-center justify-between mt-1 text-[10px] sm:text-[11px] text-neutral-500 dark:text-neutral-400 gap-1 min-w-0"><span class="capitalize truncate">足球遊戲</span><span class="flex items-center gap-0.5 sm:gap-1 font-semibold text-neutral-600 dark:text-neutral-300 shrink-0"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-flame w-3 h-3 text-amber-500 fill-current"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg>120</span></div></div></a><a href="/zh-TW/game/dino-bros" class="group relative flex flex-col bg-white dark:bg-neutral-900 rounded-2xl overflow-hidden border border-neutral-200/80 dark:border-neutral-800 hover:border-amber-400 dark:hover:border-amber-400 transition-all duration-200 hover:-translate-y-1 hover:shadow-lg hover:shadow-neutral-200/60 dark:hover:shadow-black/40 h-full"><!-- 封面图视窗容器 --><div class="relative aspect-16/10 w-full overflow-hidden bg-neutral-100 dark:bg-neutral-950"><img src="/images/games/dino-bros.webp" alt="恐龍兄弟：免費合作平台遊戲" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"><!-- Top-left Badge --><div class="absolute top-2 left-2 px-2 py-0.5 rounded-full bg-gradient-to-r from-orange-500 to-amber-500 text-white text-[10px] font-black tracking-wide flex items-center gap-1 shadow-xs uppercase"><span>熱門</span><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-flame w-3 h-3 fill-current text-amber-200"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg></div><!-- 悬停轻量半透明播放按钮遮罩 --><div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center"><div class="w-9 h-9 rounded-full bg-white/90 text-neutral-900 flex items-center justify-center shadow-md transform group-hover:scale-110 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-play w-4 h-4 fill-current ml-0.5 text-rose-500"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"></path></svg></div></div></div><!-- 底部标题与信息栏 --><div class="p-2 sm:p-2.5 flex flex-col justify-between flex-1 min-w-0"><h3 class="font-bold text-neutral-800 dark:text-neutral-100 text-xs sm:text-sm truncate group-hover:text-amber-600 dark:group-hover:text-amber-400 transition-colors">恐龍兄弟：免費合作平台遊戲</h3><div class="flex items-center justify-between mt-1 text-[10px] sm:text-[11px] text-neutral-500 dark:text-neutral-400 gap-1 min-w-0"><span class="capitalize truncate">棒球遊戲</span><span class="flex items-center gap-0.5 sm:gap-1 font-semibold text-neutral-600 dark:text-neutral-300 shrink-0"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-flame w-3 h-3 text-amber-500 fill-current"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg>120</span></div></div></a></div></div></div></section><!-- 4. Wiki 攻略 Tabs (如果有攻略指南) --><!-- 5. 深度 SEO 文章与游戏介绍 (适配深浅双色，保持 E-E-A-T 权重) --><section class="bg-white dark:bg-neutral-900/60 border border-neutral-200/80 dark:border-neutral-800 rounded-3xl p-6 sm:p-8 shadow-xs"><article class="prose max-w-none"><h2 id="遊戲概述">遊戲概述</h2>
+<p>站上打擊區，盡情體驗《棒球兄弟線上版》（Baseball Bros Online）帶來的暢快競技樂趣！這是一款專為網頁端打造的高品質多人在線棒球街機遊戲，將緊張刺激的全壘打對決直接呈現於您的螢幕之上。無論您是追求直擊雲霄的全壘打、投擲變化莫測的刁鑽弧線球，還是在外野上演飛身接殺，《棒球兄弟線上版》都以靈敏流暢的操作手感、動感明快的街機畫風和無需下載安裝的即開即玩體驗，為您帶來極致的體育競技快感。</p>
+<hr/>
+<h2 id="玩法與操作指南">玩法與操作指南</h2>
+<h3 id="如何玩棒球兄弟線上版您的完整新手指南">如何玩棒球兄弟線上版：您的完整新手指南</h3>
+<p>歡迎來到球場！棒球兄弟線上版是一款節奏明快的遊戲，即使您從未玩過 IO 遊戲，也很容易上手。我們已將核心機制分解為簡單、清晰的步驟。按照本指南操作，您將在短短幾分鐘內就能站上打擊區，像經驗豐富的職業球員一樣揮棒擊球。讓我們開始吧！</p>
+<h3 id="1-您的任務目標">1. 您的任務：目標</h3>
+<p>您的主要目標是在遊戲計時器到期之前，比對手隊伍獲得更多分數。無論您是投球還是擊球，都要專注於做出乾淨、有效的動作，以讓球員在壘上移動並將他們送回本壘。</p>
+<h3 id="2-指令控制">2. 指令：控制</h3>
+<p><strong>免責聲明：</strong> <em>這些是 PC 瀏覽器上 IO 遊戲使用鍵盤/滑鼠的標準控制方式。實際控制方式可能略有不同。</em></p>
+<table>
+<thead>
+<tr>
+<th>動作 / 目的</th>
+<th>鍵盤 / 手勢</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>移動（投手、野手、跑壘員）</td>
+<td>W、A、S、D 或方向鍵</td>
+</tr>
+<tr>
+<td>主要動作（揮棒 / 投球 / 撲壘）</td>
+<td>滑鼠左鍵點擊 or 空格鍵</td>
+</tr>
+<tr>
+<td>次要動作（投球類型修改 / 盜壘）</td>
+<td>滑鼠右鍵點擊 or ‘E’ 鍵</td>
+</tr>
+</tbody>
+</table>
+<h3 id="3-讀懂戰場您的螢幕hud">3. 讀懂戰場：您的螢幕（HUD）</h3>
+<p>請密切關注這些關鍵元素，以管理遊戲流程和您的表現。</p>
+<ul>
+<li>
+<p><strong>計分板：</strong> 通常位於頂部中央，顯示當前局數、兩隊的比分以及出局數。這是您判斷誰贏的主要指標。</p>
+</li>
+<li>
+<p><strong>投球/揮棒計量條：</strong> 出現在您擊球或投球時。請密切關注此計量條！它決定了您動作的力量和準確性。擊中最佳點（綠色區域）對於強力的擊球或棘手的投球至關重要。</p>
+</li>
+<li>
+<p><strong>跑壘員圖示：</strong> 靠近鑽石的、用於顯示哪些壘位目前有您的球員的小圖示（通常用顏色匹配您的隊伍）。使用它來決定何時跑壘或盜壘。</p>
+</li>
+<li>
+<p><strong>體力/能量條：</strong> 位於您控制的球員附近。投球或跑壘會耗盡此能量條。如果它耗盡，您的球員將移動得更慢或投出更弱的球，因此請管理好您的能量！</p>
+</li>
+</ul>
+<h3 id="4-世界規則核心機制">4. 世界規則：核心機制</h3>
+<p>棒球兄弟線上版將這項經典運動簡化為幾個核心的、基於動作的機制，您必須掌握。</p>
+<ul>
+<li>
+<p><strong>投球 vs. 擊球：</strong> 投球時，您的目標是投出打者無法有效擊中的球，在計量條的最佳點（滑鼠左鍵點擊/空格鍵）上準確地觸發主要動作以獲得最大效果。擊球時，您的目標則相反：掌握好揮棒時機，以擊中投球，然後將球擊向空曠的場地。</p>
+</li>
+<li>
+<p><strong>跑壘系統（得分）：</strong> 只有當球員成功安全地觸及所有四個壘包（一壘、二壘、三壘和本壘）時，才能得分。當您擊出安打時，請使用您的移動鍵（W、A、S、D）來引導您的跑壘員。在防守方控制球之前不要停止跑壘！</p>
+</li>
+<li>
+<p><strong>守備與出局：</strong> 當您進行防守（守備）時，您的目標是獲得三個「出局」以結束該局。出局是通過在球落地前接住擊出的球、觸殺跑壘員或在跑壘員到達壘包之前將球傳到壘包來實現的。專注於快速將球傳到最近的可用壘包以迫使出局。</p>
+</li>
+</ul>
+<hr/>
+<h2 id="進階技巧與高分攻略">進階技巧與高分攻略</h2>
+<h3 id="掌握棒球兄弟online進階策略指南">掌握《棒球兄弟Online》：進階策略指南</h3>
+<p>歡迎來到戰術大師班。身為頂尖分析師，我不僅僅是玩遊戲，而是解構它們。《棒球兄弟Online》儘管外觀休閒，卻是精細調整過的競爭性得分引擎。要超越有趣、快節奏的表面，需要深入了解其核心機制。本指南旨在將你的思維從休閒球員轉變為策略運營者，重點是最大化<strong>資源效率</strong>和<strong>風險管理</strong>——這才是這款遊戲真正的得分引擎。最高的得分不是僅靠速度就能獲得，而是通過經過計算的、高槓桿的玩法來操縱遊戲的獎勵結構。</p>
+<h3 id="1-基礎三大黃金習慣">1. 基礎：三大黃金習慣</h3>
+<p>這些是不可協商的心理紀律，區分了穩定獲勝者和時好時壞的球員。立即將它們融入。</p>
+<ul>
+<li>
+<p><strong>黃金習慣 1：掌握「投球經濟學」</strong> - 在《棒球兄弟Online》中，每一次投球都是一種資源，但更重要的是，每一次<em>壞球</em>都是一種風險。<strong>這個習慣是關於最大化好球帶的價值。</strong> 得分引擎非常獎勵每次出局的低投球數，並懲罰保送，即使它們讓壘上有人，可能形成滿貫全壘打。<strong>為什麼它至關重要：</strong> 較少的投球意味著更少的失誤機會、更快的局數，以及在競爭激烈的多人模式中保持更大的耐力。<strong>目標是每次出局投 3-5 球。</strong></p>
+</li>
+<li>
+<p><strong>黃金習慣 2：優先考慮擊中而不是力量</strong> - 雖然揮棒擊出全壘打令人滿意，但真正的高分策略是建立在<strong>穩定的跑壘員</strong>之上。上壘（即使是通過安打或觸擊）並推進跑壘員的得分獎勵遠遠超過不穩定、高方差的全壘打獎勵。<strong>為什麼它至關重要：</strong> 穩定的擊中確保你有效地輪流打擊順序，讓高上壘率（OBP）的球員留在打擊區，並防止扼殺氣勢的三振。<strong>專注於時機，而不是最大的揮棒力量。</strong></p>
+</li>
+<li>
+<p><strong>黃金習慣 3：防守預讀</strong> - 永遠不要反應；永遠要預測。這個習慣包括<strong>在投球之前就</strong>根據擊球手的資料（例如，拉打型擊球手、速度）和你即將投出的球種<strong>來佈置你的野手</strong>。<strong>為什麼它至關重要：</strong> 在快節奏的 IO 模式中，節省在防守上的一秒鐘可以防止跑壘員推進或將二壘安打變成一壘安打。<strong>將防守視為主動的棋盤控制，而不是被動的損害控制。</strong></p>
+</li>
+</ul>
+<h3 id="2-精英戰術掌握得分引擎">2. 精英戰術：掌握得分引擎</h3>
+<p>最高的得分來自於利用遊戲隱藏的風險/回報計算，特別是關於壘包管理。</p>
+<ul>
+<li>
+<p><strong>進階戰術：「雙盜壘槓桿」</strong></p>
+</li>
+<li>
+<p><strong>原則：</strong> 這種戰術是關於故意創造高風險情況（壘上有兩個跑壘員）以迫使對手的 AI 做出可預測的、可利用的防守選擇，最大化得分潛力。</p>
+</li>
+<li>
+<p><strong>執行：</strong> 首先，你需要跑壘員在 1 壘和 2 壘（或 1 壘和 3 壘）。然後，當球數對你有利時，你必須<strong>克制住猛力揮擊的衝動</strong>。最後，在 1-1 或 2-1 球數時，你啟動<strong>雙盜壘</strong>。這迫使防守方選擇要重點關注哪個領先的跑壘員，通常會導致晚傳或錯誤的決定，讓一個或兩個跑壘員推進，甚至得分，而不依賴擊球。<strong>成功的關鍵：</strong> 僅用於速度評級 75+ 的跑壘員。</p>
+</li>
+<li>
+<p><strong>進階戰術：「投手耐力消耗」</strong></p>
+</li>
+<li>
+<p><strong>原則：</strong> 遊戲的得分會獎勵你導致對手的投手疲勞並迫使牛棚更換，因為這會觸發對你接下來兩名打者的暫時「救援投手減益」獎勵。</p>
+</li>
+<li>
+<p><strong>執行：</strong> 在前兩局，專注於<strong>提高投球數</strong>，辦法是擦棒界外。不要追逐好球帶外的球，即使它們看起來可以擊中。一旦對手的投手的耐力條降到 40% 以下，立即切換戰術，積極擊球。隨後的救援投手會暫時不太準確，力量也會降低，從而允許集中得分進攻。<strong>成功的關鍵：</strong> 追蹤投手的效率。如果投手每局投 15+ 球，保持壓力。</p>
+</li>
+</ul>
+<h3 id="3-專業秘密反直覺的優勢">3. 專業秘密：反直覺的優勢</h3>
+<p>大多數球員認為<strong>總是讓首位打者上壘</strong>是最好的打法。他們錯了。突破巨大得分障礙的真正秘密是做相反的事情：<strong>故意讓首位打者出局（飛球出局或滾地球出局），如果他們的上壘率較低。</strong></p>
+<p>這就是為什麼它有效的原因：遊戲的得分引擎非常獎勵**「兩出局反攻」**，因為它們代表了更大的風險/回報計算。通過用弱打者迅速獲得第一個出局數，你立即將你的 2 棒打者（應該是高上壘率）帶到空壘的打擊區，創造新的得分機會。更重要的是，它確保你的中心打者（3 號和 4 號）<strong>在兩出局時</strong>打擊，此時遊戲最有可能提供有利的投球順序，並為安打提供放大的得分獎勵。專注於在兩出局時製造得分——這就是乘數魔術發生的地方。</p>
+<p>現在，站出來執行。計分板正在等待你的新高分。</p>
+<hr/>
+<h2 id="為什麼選擇在這裡暢玩">為什麼選擇在這裡暢玩？</h2>
+<h3 id="終極棒球兄弟線上體驗您屬於這裡的原因">終極棒球兄弟線上體驗：您屬於這裡的原因</h3>
+<p>我們不只是一個平台，更是一種哲學。我們的使命是成為挑剔玩家的終極避風港 — 讓數位世界的喧囂消逝，只留下純粹、未經稀釋的遊戲樂趣。身為您的首席品牌官兼玩家體驗佈道者，我向您保證：<strong>我們處理所有摩擦，讓您能專注於純粹的樂趣。</strong> 我們做的每一個決定，從伺服器架構到介面設計，都由一個核心信念驅動：您的時間很寶貴，您的信任是神聖的，而您的體驗必須完美無瑕。這就是為什麼對於像《棒球兄弟線上》這樣的遊戲，我們的平台是它唯一應得的家，也是您唯一應該做的選擇。</p>
+<h3 id="1-奪回您的時間即時遊玩的樂趣">1. 奪回您的時間：即時遊玩的樂趣</h3>
+<p>現代生活是一場永無止境的等待馬拉松 — 等待下載、等待更新、等待安裝。您的空閒時間是寶貴的、有限的資源，我們發誓絕不浪費。我們尊重您對即時滿足的需求，消除您與娛樂之間的所有障礙。我們設計我們的平台，以抵抗載入畫面的數位暴政。<strong>證明：</strong> 我們最先進的 H5 整合和最佳化 iframe 技術提供無縫、零安裝的體驗。這就是我們的承諾：當您想玩《棒球兄弟線上》時，您會在幾秒鐘內進入遊戲。沒有摩擦，只有純粹、直接的樂趣 — 無需等待即可站上打擊區。</p>
+<h3 id="2-誠實的樂趣零壓力承諾">2. 誠實的樂趣：零壓力承諾</h3>
+<p>我們相信遊戲應該是一種純粹的好客行為。您是我們尊貴的客人，而我們唯一的貨幣就是您的享受。這與將您困在訂閱牆後、用侵入性廣告狂轟濫炸您，或用要求不斷、令人沮喪的微交易引誘您的平台形成鮮明對比。我們向您提供從真正毫無妥協的體驗中獲得的解脫和信任的崇高感受。<strong>證明：</strong> 我們對玩家的承諾意味著一個從根本上免費存取、免費遊玩且不受積極貨幣化方案影響的平台。在完全安心的情況下，深入了解《棒球兄弟線上》的每一個動態機制和刺激策略。我們的平台是免費的，而且永遠都會是。沒有附加條件，沒有驚喜，只有貨真價實的娛樂。</p>
+<h3 id="3-充滿信心地玩我們對公平與安全場地的承諾">3. 充滿信心地玩：我們對公平與安全場地的承諾</h3>
+<p>任何偉大競爭的基礎都是信任。如果比賽場地受到損害，勝利就毫無意義。我們知道您的安心至關重要，這就是為什麼我們建立了一個誠信和安全不容談判的環境。您的情感益處是知道您的成就是有意義的，是透過技能獲得的，而不是剝削。<strong>證明：</strong> 我們採用強大的資料隱私協定來保護您的身份，並部署尖端的反作弊機制。我們對任何破壞社群的行為都保持嚴格的零容忍政策。知道它真正考驗的是技能和運動精神，才能在《棒球兄弟線上》排行榜上追逐第一名。我們打造安全、公平的遊樂場，讓您可以專注於建立您的傳奇。</p>
+<h3 id="4-對玩家的尊重精心策劃品質至上的世界">4. 對玩家的尊重：精心策劃、品質至上的世界</h3>
+<p>我們太重視您的時間和智慧，不會用數位垃圾食品來混亂您的體驗。當您造訪我們的平台時，您不應該為了找到一顆寶石，而不得不艱難地瀏覽成千上萬個低品質、維護不善的遊戲。情感上的益處是感到被看見和被尊重 — 我們知道您在尋找什麼，並且我們會精確地交付它。<strong>證明：</strong> 我們是一個精心策劃的精品平台。我們只精心挑選最好、最精緻、最引人入勝的遊戲，並且我們維護一個乾淨、快速且不引人注目的介面，永遠不會不必要地要求您的注意。您在這裡找不到成千上萬個克隆遊戲。我們推出《棒球兄弟線上》，因為我們相信這是一個值得您花時間的特殊、快節奏的挑戰。這就是我們的策劃承諾：更少的噪音，更多您應得的品質。</p>
+<hr/>
+<h2 id="常見問題解答-faq">常見問題解答 (FAQ)</h2>
+<h3 id="棒球兄弟線上版是免費遊玩的嗎">《棒球兄弟：線上版》是免費遊玩的嗎？</h3>
+<p>《棒球兄弟：線上版》是一款免費遊玩的遊戲！您現在就可以立即加入並開始遊玩，無需任何費用。雖然核心遊戲是免費的，但我們可能會提供外觀物品或增益道具供您購買，以提升您的遊戲體驗。</p>
+<h3 id="我該如何下載和安裝遊戲">我該如何下載和安裝遊戲？</h3>
+<p>《棒球兄弟：線上版》是一款「iframe」或網頁遊戲，這意味著您可以直接���您的網頁瀏覽器（例如 Chrome、Firefox 或 Edge）中遊玩，無需下載或安裝任何獨立的應用程式。只需點擊「開始遊戲」按鈕即可！</p>
+<h3 id="遊玩這款遊戲的最低系統要求是什麼">遊玩這款遊戲的最低系統要求是什麼？</h3>
+<p>由於這是一款快節奏的 IO 遊戲，我們建議使用穩定的網路連線以獲得最佳體驗。遊戲設計上可在大多數現代瀏覽器上流暢運行。如果您遇到延遲，請嘗試關閉其他分頁或使用有線連線。</p>
+<h3 id="我該如何控制球員進行打擊投球和守備">我該如何控制球員進行打擊、投球和守備？</h3>
+<p>基本控制很簡單：使用 <strong>WASD 或方向鍵</strong> 來移動您的球員。打擊時，按下<strong>空格鍵或滑鼠左鍵</strong>來揮棒。投球時，會出現一個量表；再次按下<strong>空格鍵或滑鼠左鍵</strong>來控制您投球的力量和準確度。所有控制方式都會在遊戲內教學中解釋。</p>
+<h3 id="遊戲延遲或運行緩慢我該怎麼解決這個問題">遊戲延遲或運行緩慢。我該怎麼解決這個問題？</h3>
+<p>如果您遇到延遲（速度慢或卡頓），請嘗試以下步驟：1) 確保您的瀏覽器為最新版本。2) 關閉其他不必要的瀏覽器分頁和程式。3) 清除瀏覽器的快取和 Cookie。4) 嘗試切換到不同的網頁瀏覽器。5) 如果可能，請使用有線網路連線取代 Wi-Fi。</p>
+<h3 id="我無法連線到遊戲或找不到比賽發生了什麼事">我無法連線到遊戲或找不到比賽。發生了什麼事？</h3>
+<p>如果遊戲載入成功但您無法連線到比賽，問題通常與您的防火牆或網路設定有關。請確保您的網路允許連線到我們的遊戲伺服器。如果您是在學校或公司網路，管理員可能封鎖了連線。如果問題持續存在，請嘗試重新啟動您的路由器。</p>
+<h3 id="我的遊戲進度儲存在哪裡我會不會遺失它">我的遊戲進度儲存在哪裡？我會不會遺失它？</h3>
+<p>作為一款 IO 遊戲，您的進度通常儲存在您瀏覽器的本地資料（Cookie/本地儲存）中。如果您清除瀏覽器的快取和 Cookie，您可能會遺失您的訪客帳號資料、統計數據以及任何未儲存的外觀進度。我們建議建立一個帳號（如果提供此選項）以確保您的進度能在不同裝置間保留。</p>
+<h3 id="我可以和我的朋友在同一場比賽中一起玩嗎">我可以和我的朋友在同一場比賽中一起玩嗎？</h3>
+<p>《棒球兄弟：線上版》是一款多人遊戲，但目前它使用自動配對系統來快速讓您與其他隨機玩家進入一場比賽。我們正計畫在未來的更新中推出私人大廳或隊伍系統。請密切關注我們的公告！</p>
+<h3 id="我該如何舉報其他玩家作弊或不當行為">我該如何舉報其他玩家作弊或不當行為？</h3>
+<p>若要舉報玩家作弊、騷擾或不當行為，請使用遊戲內的舉報工具（通常可從記分板或賽後畫面存取）。如果沒有遊戲內工具，請截圖或記下玩家的用戶名稱，並直接聯繫我們的支援團隊。我們非常重視公平遊戲。</p></article></section><!-- 6. 评论与互动反馈区 --><section><div class="mt-8 bg-white dark:bg-neutral-900/60 border border-neutral-200/80 dark:border-neutral-800 p-6 md:p-8 rounded-3xl shadow-xs transition-colors" data-comment-section data-astro-cid-75uyrz4v><div class="flex items-center justify-between border-b border-neutral-200/80 dark:border-neutral-800 pb-4 mb-6" data-astro-cid-75uyrz4v><div class="flex items-center gap-2.5" data-astro-cid-75uyrz4v><div class="w-8 h-8 rounded-xl bg-amber-500/10 flex items-center justify-center text-amber-500" data-astro-cid-75uyrz4v><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" data-astro-cid-75uyrz4v="true" class="lucide lucide-message-square w-4 h-4 fill-current"><path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z"></path></svg></div><h3 class="text-lg sm:text-xl font-black tracking-tight text-neutral-900 dark:text-white" data-astro-cid-75uyrz4v>Player Reviews (<span id="reviews-count" data-astro-cid-75uyrz4v>0</span>)</h3></div><span class="text-xs text-neutral-500 dark:text-neutral-400 font-medium" data-astro-cid-75uyrz4v>Verified Feedback</span></div><!-- 待审与未通过评论动态容器（由客户端 LocalStorage 水合插入，常驻置顶） --><div id="local-status-container" class="space-y-3 mb-4 hidden" data-astro-cid-75uyrz4v></div><!-- 静态评论列表渲染容器 --><div id="comments-list-container" class="space-y-3.5 max-h-[520px] overflow-y-auto pr-2 mb-4 custom-scrollbar" data-astro-cid-75uyrz4v><div id="empty-state" class="text-center py-8 text-neutral-500 dark:text-neutral-400 text-xs sm:text-sm border border-dashed border-neutral-200 dark:border-neutral-800 rounded-2xl bg-neutral-50/50 dark:bg-neutral-900/30 flex flex-col items-center justify-center gap-2 " data-astro-cid-75uyrz4v><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" data-astro-cid-75uyrz4v="true" class="lucide lucide-message-square w-6 h-6 text-neutral-400"><path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z"></path></svg><span data-astro-cid-75uyrz4v>暫無評論，快來搶先留下第一條評論吧！</span></div><!-- 评论列表项目挂载容器 --><div id="comments-items-wrapper" class="space-y-3.5" data-astro-cid-75uyrz4v></div><!-- 异步加载 Loading 骨架指示器 --><div id="comments-loading-skeleton" class="hidden py-4 text-center" data-astro-cid-75uyrz4v><div class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-neutral-100 dark:bg-neutral-800/80 text-xs font-semibold text-neutral-600 dark:text-neutral-300 shadow-xs" data-astro-cid-75uyrz4v><svg class="animate-spin h-3.5 w-3.5 text-amber-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" data-astro-cid-75uyrz4v><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" data-astro-cid-75uyrz4v></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" data-astro-cid-75uyrz4v></path></svg><span data-astro-cid-75uyrz4v>Loading more reviews...</span></div></div></div><!-- 分页导航控制器（当评论数大于 pageSize 时自动显示） --><div id="comments-pagination" class="flex items-center justify-between border-t border-neutral-200/80 dark:border-neutral-800 pt-3.5 pb-2 mb-6 hidden" data-astro-cid-75uyrz4v><div class="text-xs text-neutral-500 dark:text-neutral-400 font-medium" data-astro-cid-75uyrz4v>Showing <span id="page-item-start" data-astro-cid-75uyrz4v>1</span>-<span id="page-item-end" data-astro-cid-75uyrz4v>0</span> of <span id="page-total-items" data-astro-cid-75uyrz4v>0</span></div><div class="flex items-center gap-1.5" id="pagination-controls" data-astro-cid-75uyrz4v><button type="button" id="btn-prev-page" class="w-7 h-7 flex items-center justify-center rounded-lg border border-neutral-200 dark:border-neutral-800 text-neutral-600 dark:text-neutral-400 hover:bg-neutral-100 dark:hover:bg-neutral-800 disabled:opacity-30 disabled:pointer-events-none transition cursor-pointer" aria-label="上一頁" data-astro-cid-75uyrz4v><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" data-astro-cid-75uyrz4v="true" class="lucide lucide-chevron-left w-4 h-4"><path d="m15 18-6-6 6-6"></path></svg></button><!-- 页码数字容器 --><div id="page-numbers-container" class="flex items-center gap-1" data-astro-cid-75uyrz4v></div><button type="button" id="btn-next-page" class="w-7 h-7 flex items-center justify-center rounded-lg border border-neutral-200 dark:border-neutral-800 text-neutral-600 dark:text-neutral-400 hover:bg-neutral-100 dark:hover:bg-neutral-800 disabled:opacity-30 disabled:pointer-events-none transition cursor-pointer" aria-label="下一頁" data-astro-cid-75uyrz4v><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" data-astro-cid-75uyrz4v="true" class="lucide lucide-chevron-right w-4 h-4"><path d="m9 18 6-6-6-6"></path></svg></button></div></div><!-- 提交评论表单 --><form id="comment-form" class="space-y-4 border-t border-neutral-200/80 dark:border-neutral-800 pt-6" data-astro-cid-75uyrz4v><div class="flex items-center justify-between" data-astro-cid-75uyrz4v><h4 class="text-sm font-bold text-neutral-900 dark:text-neutral-200" data-astro-cid-75uyrz4v>Leave Your Review</h4><span id="form-msg" class="text-xs hidden font-medium" data-astro-cid-75uyrz4v></span></div><input type="hidden" name="page_key" id="page-key-input" value="/" data-astro-cid-75uyrz4v><!-- 蜜罐字段 (Honeypot) 防自动化刷单 --><div class="hidden" aria-hidden="true" data-astro-cid-75uyrz4v><label data-astro-cid-75uyrz4v>Please leave this field blank:</label><input type="text" name="website_url" tabindex="-1" autocomplete="off" data-astro-cid-75uyrz4v></div><div class="grid grid-cols-1 md:grid-cols-2 gap-4" data-astro-cid-75uyrz4v><div data-astro-cid-75uyrz4v><label class="block text-xs font-semibold text-neutral-600 dark:text-neutral-400 mb-1.5" data-astro-cid-75uyrz4v>暱稱 *</label><input type="text" name="nickname" placeholder="請輸入您的玩家暱稱" maxlength="40" required class="w-full bg-neutral-50 dark:bg-neutral-950/80 border border-neutral-200 dark:border-neutral-800 focus:border-amber-500 dark:focus:border-amber-400 focus:outline-hidden px-4 py-2.5 rounded-xl text-sm transition text-neutral-900 dark:text-white placeholder:text-neutral-400" data-astro-cid-75uyrz4v></div><div data-astro-cid-75uyrz4v><label class="block text-xs font-semibold text-neutral-600 dark:text-neutral-400 mb-1.5" data-astro-cid-75uyrz4v>Rating</label><select name="rating" class="w-full bg-neutral-50 dark:bg-neutral-950/80 border border-neutral-200 dark:border-neutral-800 focus:border-amber-500 dark:focus:border-amber-400 focus:outline-hidden px-4 py-2.5 rounded-xl text-sm transition text-neutral-900 dark:text-white cursor-pointer" data-astro-cid-75uyrz4v><option value="5" data-astro-cid-75uyrz4v>★★★★★ (5 Stars - Outstanding!)</option><option value="4" data-astro-cid-75uyrz4v>★★★★☆ (4 Stars - Great)</option><option value="3" data-astro-cid-75uyrz4v>★★★☆☆ (3 Stars - Average)</option><option value="2" data-astro-cid-75uyrz4v>★★☆☆☆ (2 Stars - Needs Work)</option><option value="1" data-astro-cid-75uyrz4v>★☆☆☆☆ (1 Star - Bad)</option></select></div></div><!-- 邮箱字段（选填，附带明确提示与长度限制） --><div data-astro-cid-75uyrz4v><div class="flex items-center justify-between mb-1.5" data-astro-cid-75uyrz4v><label class="block text-xs font-semibold text-neutral-600 dark:text-neutral-400" data-astro-cid-75uyrz4v>Email <span class="font-normal text-neutral-400 dark:text-neutral-500" data-astro-cid-75uyrz4v>(Optional)</span></label><span class="text-[11px] text-neutral-400 dark:text-neutral-500 flex items-center gap-1" data-astro-cid-75uyrz4v><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" data-astro-cid-75uyrz4v="true" class="lucide lucide-mail w-3 h-3 inline"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg>Leave your email if you&#39;d like us to reply or get in touch.</span></div><input type="email" name="email" placeholder="your.email@mail.com" maxlength="120" class="w-full bg-neutral-50 dark:bg-neutral-950/80 border border-neutral-200 dark:border-neutral-800 focus:border-amber-500 dark:focus:border-amber-400 focus:outline-hidden px-4 py-2.5 rounded-xl text-sm transition text-neutral-900 dark:text-white placeholder:text-neutral-400" data-astro-cid-75uyrz4v></div><div data-astro-cid-75uyrz4v><label class="block text-xs font-semibold text-neutral-600 dark:text-neutral-400 mb-1.5" data-astro-cid-75uyrz4v>發表評論 *</label><textarea name="content" rows="3" maxlength="500" placeholder="分享您的技巧、策略或高分心得..." required class="w-full bg-neutral-50 dark:bg-neutral-950/80 border border-neutral-200 dark:border-neutral-800 focus:border-amber-500 dark:focus:border-amber-400 focus:outline-hidden px-4 py-2.5 rounded-xl text-sm transition text-neutral-900 dark:text-white placeholder:text-neutral-400 resize-none" data-astro-cid-75uyrz4v></textarea></div><button type="submit" id="submit-comment-btn" class="w-full bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-500 hover:to-amber-600 active:scale-[0.99] text-neutral-950 font-bold py-3 px-4 rounded-xl text-sm transition shadow-md shadow-amber-400/10 cursor-pointer disabled:opacity-50 disabled:pointer-events-none" data-astro-cid-75uyrz4v>提交評論</button><p class="text-[11px] text-neutral-400 dark:text-neutral-500 text-center mt-2" data-astro-cid-75uyrz4v>* 您的評論已提交，稍後將顯示。</p></form></div><script>(function(){const apiEndpoint = "";
+const serverPageKey = "/";
+const currentDomain = "baseballbros.online";
+const siteIdentifier = "baseball-bros";
+const buildTimestamp = 1791521142389;
+const bakedComments = [];
+const pageSize = 10;
+const clientI18n = {"notApproved":"🔴 Not Approved","dismiss":"Dismiss","guidelinesNotice":"Notice: This review did not meet content guidelines.","underReview":"🟡 Under Review","justNow":"Just now","pendingNotice":"Only visible to you. Will be officially published after the next automated build.","posting":"提交中...","postReview":"提交評論","reviewSubmittedMsg":"您的評論已提交，稍後將顯示。","rateLimitedMsg":"⏳ You are posting too fast — please wait a minute.","noCommentsOnPage":"No comments on this page."};
+
+  let clientPageKey = serverPageKey;
+  if (serverPageKey === '/' || (typeof window !== 'undefined' && (window.location.pathname === '/' || window.location.pathname === ''))) {
+    clientPageKey = '/';
+  } else if (typeof window !== 'undefined' && window.location && window.location.pathname) {
+    clientPageKey = window.location.pathname;
+  }
+
+  const pageKeyInput = document.getElementById('page-key-input');
+  if (pageKeyInput) pageKeyInput.value = clientPageKey;
+
+  const STORAGE_KEY = `h5_user_reviews_${clientPageKey}`;
+  const PENDING_TTL = 7 * 24 * 60 * 60 * 1000; // 7 天过期自动清理，防止缓存永久堆积
+  const localContainer = document.getElementById('local-status-container');
+  const form = document.getElementById('comment-form');
+  const submitBtn = document.getElementById('submit-comment-btn');
+  const formMsg = document.getElementById('form-msg');
+
+  const CLIENT_AVATAR_COLORS = [
+    'bg-amber-500/15 text-amber-600 dark:text-amber-400 border border-amber-500/20',
+    'bg-indigo-500/15 text-indigo-600 dark:text-indigo-400 border border-indigo-500/20',
+    'bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20',
+    'bg-rose-500/15 text-rose-600 dark:text-rose-400 border border-rose-500/20',
+    'bg-sky-500/15 text-sky-600 dark:text-sky-400 border border-sky-500/20',
+    'bg-purple-500/15 text-purple-600 dark:text-purple-400 border border-purple-500/20',
+  ];
+
+  function getClientAvatarColor(name) {
+    let h = 0;
+    const s = String(name || '?');
+    for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0;
+    return CLIENT_AVATAR_COLORS[h % CLIENT_AVATAR_COLORS.length];
+  }
+
+  function getClientInitial(name) {
+    const s = String(name || '?').trim();
+    return s.replace(/^@/, '').charAt(0).toUpperCase() || '?';
+  }
+
+  // ======================
+  // 1. 评论智能异步分页系统
+  // ======================
+  let currentPage = 1;
+  let totalItems = bakedComments.length;
+  let isLoading = false;
+
+  // 页面数据缓存（第一页默认使用服务端烘焙的数据）
+  const pageDataCache = {
+    1: bakedComments.slice(0, pageSize)
+  };
+
+  const paginationEl = document.getElementById('comments-pagination');
+  const pageStartEl = document.getElementById('page-item-start');
+  const pageEndEl = document.getElementById('page-item-end');
+  const pageTotalEl = document.getElementById('page-total-items');
+  const numbersContainer = document.getElementById('page-numbers-container');
+  const prevBtn = document.getElementById('btn-prev-page');
+  const nextBtn = document.getElementById('btn-next-page');
+  const itemsWrapper = document.getElementById('comments-items-wrapper');
+  const loadingSkeleton = document.getElementById('comments-loading-skeleton');
+  const emptyState = document.getElementById('empty-state');
+  const reviewsCountEl = document.getElementById('reviews-count');
+
+  function escapeHtml(str) {
+    return String(str || '').replace(/[&<>"']/g, (m) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[m]));
+  }
+
+  function buildCommentCardHtml(comment) {
+    const avColor = getClientAvatarColor(comment.nickname);
+    const avInitial = getClientInitial(comment.nickname);
+    const dateStr = new Date(comment.timestamp || Date.now()).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+    
+    let starsHtml = '';
+    const rating = Math.max(1, Math.min(5, Number(comment.rating) || 5));
+    for (let i = 0; i < 5; i++) {
+      const color = i < rating ? 'text-amber-500 fill-amber-500' : 'text-neutral-300 dark:text-neutral-700';
+      starsHtml += `<svg class="w-3.5 h-3.5 inline ${color}" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`;
+    }
+
+    return `
+      <div class="comment-card bg-neutral-50 dark:bg-neutral-950/60 border border-neutral-200/60 dark:border-neutral-800/80 p-4 rounded-2xl relative transition-all" data-comment-id="${escapeHtml(comment.id || '')}">
+        <div class="flex items-center justify-between mb-2.5">
+          <div class="flex items-center gap-2.5">
+            <div class="w-7 h-7 rounded-full flex items-center justify-center font-bold text-xs shrink-0 select-none ${avColor}">
+              ${avInitial}
+            </div>
+            <div class="min-w-0">
+              <span class="font-bold text-neutral-800 dark:text-neutral-200 text-sm truncate block leading-tight">${escapeHtml(comment.nickname)}</span>
+              <span class="text-[10px] text-neutral-400 dark:text-neutral-500 font-medium">${dateStr}</span>
+            </div>
+          </div>
+          <div class="flex gap-0.5">${starsHtml}</div>
+        </div>
+        <p class="text-neutral-700 dark:text-neutral-300 text-sm leading-relaxed whitespace-pre-wrap pl-9.5">${escapeHtml(comment.content)}</p>
+      </div>
+    `;
+  }
+
+  function renderPage(page, commentsList) {
+    if (!itemsWrapper) return;
+    if (!commentsList || commentsList.length === 0) {
+      itemsWrapper.innerHTML = `
+        <div class="text-center py-8 text-neutral-400 text-xs sm:text-sm border border-dashed border-neutral-200 dark:border-neutral-800 rounded-2xl p-4">
+          ${clientI18n.noCommentsOnPage}
+        </div>
+      `;
+    } else {
+      itemsWrapper.innerHTML = commentsList.map(buildCommentCardHtml).join('');
+    }
+  }
+
+  function updatePaginationUI() {
+    if (!paginationEl) return;
+    const totalPages = Math.ceil(totalItems / pageSize) || 1;
+
+    if (totalItems <= pageSize) {
+      paginationEl.classList.add('hidden');
+      return;
+    }
+    paginationEl.classList.remove('hidden');
+
+    const startIdx = (currentPage - 1) * pageSize;
+    const endIdx = Math.min(startIdx + pageSize, totalItems);
+
+    if (pageStartEl) pageStartEl.textContent = String(startIdx + 1);
+    if (pageEndEl) pageEndEl.textContent = String(endIdx);
+    if (pageTotalEl) pageTotalEl.textContent = String(totalItems);
+    if (reviewsCountEl) reviewsCountEl.textContent = String(totalItems);
+
+    if (prevBtn) prevBtn.disabled = (currentPage === 1 || isLoading);
+    if (nextBtn) nextBtn.disabled = (currentPage === totalPages || isLoading);
+
+    if (numbersContainer) {
+      let numsHtml = '';
+      for (let p = 1; p <= totalPages; p++) {
+        const isActive = (p === currentPage);
+        const btnClass = isActive 
+          ? 'w-7 h-7 text-xs font-bold rounded-lg bg-amber-500 text-neutral-950 shadow-xs' 
+          : 'w-7 h-7 text-xs font-medium rounded-lg text-neutral-600 dark:text-neutral-400 hover:bg-neutral-100 dark:hover:bg-neutral-800 disabled:opacity-40';
+        numsHtml += `<button type="button" class="${btnClass} cursor-pointer" data-go-page="${p}" ${isLoading ? 'disabled' : ''}>${p}</button>`;
+      }
+      numbersContainer.innerHTML = numsHtml;
+
+      numbersContainer.querySelectorAll('button[data-go-page]').forEach((b) => {
+        b.addEventListener('click', () => {
+          const targetP = parseInt(b.getAttribute('data-go-page') || '1');
+          goToPage(targetP);
+        });
+      });
+    }
+  }
+
+  async function goToPage(page) {
+    const totalPages = Math.ceil(totalItems / pageSize) || 1;
+    if (page < 1 || page > totalPages || isLoading) return;
+
+    currentPage = page;
+
+    // ① 若目标页已有缓存，秒级展示
+    if (pageDataCache[page]) {
+      renderPage(page, pageDataCache[page]);
+      updatePaginationUI();
+      const listContainer = document.getElementById('comments-list-container');
+      if (listContainer) listContainer.scrollTo({ top: 0, behavior: 'smooth' });
+      return;
+    }
+
+    // ② 若没有缓存，发起异步请求拉取
+    if (apiEndpoint) {
+      isLoading = true;
+      if (loadingSkeleton) loadingSkeleton.classList.remove('hidden');
+      updatePaginationUI();
+
+      try {
+        const requestUrl = new URL(apiEndpoint);
+        if (siteIdentifier) requestUrl.searchParams.set('site', siteIdentifier);
+        if (currentDomain) requestUrl.searchParams.set('domain', currentDomain);
+        if (clientPageKey) requestUrl.searchParams.set('page_key', clientPageKey);
+        requestUrl.searchParams.set('page', String(page));
+        requestUrl.searchParams.set('limit', String(pageSize));
+
+        const res = await fetch(requestUrl.toString(), { redirect: 'follow' });
+        if (res.ok) {
+          const data = await res.json();
+          let pageComments = [];
+          if (Array.isArray(data.comments)) {
+            pageComments = data.comments;
+          }
+          if (data.total !== undefined && Number(data.total) > 0) {
+            totalItems = Number(data.total);
+          }
+          pageDataCache[page] = pageComments;
+          renderPage(page, pageComments);
+        } else {
+          throw new Error('HTTP ' + res.status);
+        }
+      } catch (err) {
+        console.warn('Async comments page fetch failed:', err);
+        // 优雅降级：若本地有更多烘焙数据则提取切片
+        const fallbackSlice = bakedComments.slice((page - 1) * pageSize, page * pageSize);
+        if (fallbackSlice.length > 0) {
+          pageDataCache[page] = fallbackSlice;
+          renderPage(page, fallbackSlice);
+        }
+      } finally {
+        isLoading = false;
+        if (loadingSkeleton) loadingSkeleton.classList.add('hidden');
+        updatePaginationUI();
+        const listContainer = document.getElementById('comments-list-container');
+        if (listContainer) listContainer.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    } else {
+      // 未配置 API 时直接从本地数据切片
+      const localSlice = bakedComments.slice((page - 1) * pageSize, page * pageSize);
+      pageDataCache[page] = localSlice;
+      renderPage(page, localSlice);
+      updatePaginationUI();
+      const listContainer = document.getElementById('comments-list-container');
+      if (listContainer) listContainer.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  }
+
+  if (prevBtn) prevBtn.addEventListener('click', () => goToPage(currentPage - 1));
+  if (nextBtn) nextBtn.addEventListener('click', () => goToPage(currentPage + 1));
+
+  updatePaginationUI();
+
+  // ③ 异步探测：后台静默同步线上最新真实评论总数与分页
+  if (apiEndpoint) {
+    (async () => {
+      try {
+        const sniffUrl = new URL(apiEndpoint);
+        if (siteIdentifier) sniffUrl.searchParams.set('site', siteIdentifier);
+        if (currentDomain) sniffUrl.searchParams.set('domain', currentDomain);
+        if (clientPageKey) sniffUrl.searchParams.set('page_key', clientPageKey);
+        sniffUrl.searchParams.set('page', '1');
+        sniffUrl.searchParams.set('limit', String(pageSize));
+        const res = await fetch(sniffUrl.toString(), { redirect: 'follow' });
+        if (res.ok) {
+          const data = await res.json();
+          if (data && data.total !== undefined && Number(data.total) > totalItems) {
+            totalItems = Number(data.total);
+            if (Array.isArray(data.comments) && data.comments.length > 0) {
+              pageDataCache[1] = data.comments;
+              if (currentPage === 1) renderPage(1, data.comments);
+            }
+            updatePaginationUI();
+          }
+        }
+      } catch (_) {}
+    })();
+  }
+
+  // ======================
+  // 2. LocalStorage 待审管理与 7 天 TTL
+  // ======================
+  function getLocalReviews() {
+    try {
+      const data = localStorage.getItem(STORAGE_KEY);
+      const list = data ? JSON.parse(data) : [];
+      if (!Array.isArray(list)) return [];
+      const cutoff = Date.now() - PENDING_TTL;
+      const fresh = list.filter(item => {
+        const t = item.savedAt || new Date(item.timestamp || 0).getTime();
+        return t >= cutoff;
+      });
+      if (fresh.length !== list.length) {
+        saveLocalReviews(fresh);
+      }
+      return fresh;
+    } catch {
+      return [];
+    }
+  }
+
+  function saveLocalReviews(list) {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(list));
+    } catch (e) {
+      console.warn('LocalStorage save failed:', e);
+    }
+  }
+
+  function renderStars(rating) {
+    let stars = '';
+    for (let i = 0; i < 5; i++) {
+      const color = i < rating ? 'text-amber-500 fill-amber-500' : 'text-neutral-300 dark:text-neutral-700';
+      stars += `<svg class="w-3.5 h-3.5 inline ${color}" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`;
+    }
+    return stars;
+  }
+
+  function setFormMsg(text, type) {
+    if (!formMsg) return;
+    if (!text) {
+      formMsg.classList.add('hidden');
+      return;
+    }
+    formMsg.textContent = text;
+    formMsg.className = `text-xs font-semibold ${type === 'error' ? 'text-rose-500' : 'text-emerald-500'}`;
+    formMsg.classList.remove('hidden');
+  }
+
+  function syncAndRenderLocalReviews() {
+    if (!localContainer) return;
+    const list = getLocalReviews();
+    if (list.length === 0) {
+      localContainer.classList.add('hidden');
+      localContainer.innerHTML = '';
+      return;
+    }
+
+    const remaining = [];
+    let html = '';
+
+    for (const item of list) {
+      const isBaked = bakedComments.some(c => 
+        (c.id && c.id === item.id) || 
+        (c.nickname === item.nickname && c.content === item.content)
+      );
+
+      if (isBaked) {
+        continue;
+      }
+
+      const itemTime = item.savedAt || new Date(item.timestamp).getTime();
+      const avColor = getClientAvatarColor(item.nickname);
+      const avInitial = getClientInitial(item.nickname);
+
+      if (itemTime < buildTimestamp) {
+        remaining.push(item);
+        html += `
+          <div class="bg-rose-50/80 dark:bg-rose-950/20 border border-rose-200 dark:border-rose-900/60 p-4 rounded-2xl relative">
+            <div class="flex items-center justify-between mb-2.5">
+              <div class="flex items-center gap-2.5">
+                <div class="w-7 h-7 rounded-full flex items-center justify-center font-bold text-xs shrink-0 select-none ${avColor}">
+                  ${avInitial}
+                </div>
+                <div class="flex items-center gap-2">
+                  <span class="font-bold text-rose-700 dark:text-rose-400 text-sm">${item.nickname}</span>
+                  <span class="inline-flex items-center gap-1 text-[10px] font-semibold px-2 py-0.5 rounded-full bg-rose-100 dark:bg-rose-900/40 text-rose-700 dark:text-rose-300">
+                    ${clientI18n.notApproved}
+                  </span>
+                </div>
+              </div>
+              <button type="button" class="text-xs text-neutral-400 hover:text-neutral-600 dark:hover:text-neutral-200 cursor-pointer" onclick="window.removeLocalReview('${item.id}')">${clientI18n.dismiss}</button>
+            </div>
+            <div class="flex gap-1 mb-2 pl-9.5">${renderStars(item.rating)}</div>
+            <p class="text-neutral-600 dark:text-neutral-400 text-sm leading-relaxed whitespace-pre-wrap pl-9.5">${item.content}</p>
+            <p class="text-[11px] text-rose-500/80 dark:text-rose-400/80 mt-2 pl-9.5">${clientI18n.guidelinesNotice}</p>
+          </div>
+        `;
+      } else {
+        remaining.push(item);
+        html += `
+          <div class="bg-amber-50/80 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-900/60 p-4 rounded-2xl relative">
+            <div class="flex items-center justify-between mb-2.5">
+              <div class="flex items-center gap-2.5">
+                <div class="w-7 h-7 rounded-full flex items-center justify-center font-bold text-xs shrink-0 select-none ${avColor}">
+                  ${avInitial}
+                </div>
+                <div class="flex items-center gap-2">
+                  <span class="font-bold text-amber-700 dark:text-amber-400 text-sm">${item.nickname}</span>
+                  <span class="inline-flex items-center gap-1 text-[10px] font-semibold px-2 py-0.5 rounded-full bg-amber-100 dark:bg-amber-900/40 text-amber-800 dark:text-amber-300">
+                    ${clientI18n.underReview}
+                  </span>
+                </div>
+              </div>
+              <span class="text-[11px] text-neutral-400 dark:text-neutral-500 font-medium">${clientI18n.justNow}</span>
+            </div>
+            <div class="flex gap-1 mb-2 pl-9.5">${renderStars(item.rating)}</div>
+            <p class="text-neutral-700 dark:text-neutral-300 text-sm leading-relaxed whitespace-pre-wrap pl-9.5">${item.content}</p>
+            <p class="text-[11px] text-amber-600/80 dark:text-amber-400/80 mt-2 pl-9.5">${clientI18n.pendingNotice}</p>
+          </div>
+        `;
+      }
+    }
+
+    saveLocalReviews(remaining);
+
+    if (html) {
+      localContainer.innerHTML = html;
+      localContainer.classList.remove('hidden');
+    } else {
+      localContainer.innerHTML = '';
+      localContainer.classList.add('hidden');
+    }
+  }
+
+  window.removeLocalReview = function(id) {
+    const list = getLocalReviews().filter(x => x.id !== id);
+    saveLocalReviews(list);
+    syncAndRenderLocalReviews();
+  };
+
+  syncAndRenderLocalReviews();
+
+  // ======================
+  // 3. 提交新评论 (带 text/plain CORS 简单请求与限流感知)
+  // ======================
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    const formData = new FormData(form);
+    const content = String(formData.get('content') || '').trim();
+    const nickname = String(formData.get('nickname') || '').trim();
+    const email = String(formData.get('email') || '').trim();
+    const rating = parseInt(formData.get('rating')) || 5;
+    const website_url = formData.get('website_url');
+
+    if (!content || !nickname) return;
+
+    const newId = 'c_' + Date.now() + '_' + Math.random().toString(36).substring(2, 7);
+    const nowTime = Date.now();
+    const timestamp = new Date(nowTime).toISOString();
+
+    const newComment = {
+      id: newId,
+      pageKey: clientPageKey,
+      nickname: nickname,
+      email: email,
+      rating: rating,
+      content: content,
+      timestamp: timestamp,
+      savedAt: nowTime,
+      status: 'pending'
+    };
+
+    const currentList = getLocalReviews();
+    currentList.unshift(newComment);
+    saveLocalReviews(currentList);
+
+    syncAndRenderLocalReviews();
+    totalItems++;
+    updatePaginationUI();
+    form.reset();
+    setFormMsg('', '');
+
+    const emptyState = document.getElementById('empty-state');
+    if (emptyState) emptyState.style.display = 'none';
+
+    if (apiEndpoint) {
+      submitBtn.disabled = true;
+      submitBtn.textContent = clientI18n.posting;
+
+      try {
+        const response = await fetch(apiEndpoint, {
+          method: 'POST',
+          headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+          body: JSON.stringify({
+            id: newId,
+            site: siteIdentifier,
+            domain: currentDomain || (typeof window !== 'undefined' ? window.location.host : ''),
+            page_key: clientPageKey,
+            nickname: nickname,
+            email: email,
+            rating: rating,
+            content: content,
+            website_url: website_url
+          })
+        });
+
+        if (response.ok) {
+          const resData = await response.json();
+          if (resData && resData.ok) {
+            setFormMsg(clientI18n.reviewSubmittedMsg, 'ok');
+          } else if (resData && resData.error === 'rate_limited') {
+            setFormMsg(clientI18n.rateLimitedMsg, 'error');
+          }
+        }
+      } catch (err) {
+        console.warn('Remote sync error, safely preserved in LocalStorage:', err);
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.textContent = clientI18n.postReview;
+      }
+    }
+  });
+})();</script></section></div></div></main><!-- 底部 --><footer class="mt-16 border-t border-neutral-200/80 dark:border-neutral-800 bg-white dark:bg-neutral-950 text-neutral-600 dark:text-neutral-400 text-sm transition-colors duration-200"><div class="max-w-[1600px] mx-auto px-4 md:px-6 py-12"><div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-10"><!-- 品牌简介 --><div class="md:col-span-2 space-y-3"><div class="flex items-center gap-2 text-lg font-black text-neutral-900 dark:text-white uppercase tracking-wider"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-gamepad-2 w-5 h-5 text-amber-500"><line x1="6" x2="10" y1="11" y2="11"></line><line x1="8" x2="8" y1="9" y2="13"></line><line x1="15" x2="15.01" y1="12" y2="12"></line><line x1="18" x2="18.01" y1="10" y2="10"></line><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z"></path></svg><span>Baseball Bros Online</span></div><p class="text-neutral-500 dark:text-neutral-400 text-xs leading-relaxed max-w-sm">節奏快速的多人在線棒球對戰，簡單易上手，暢快擊出全壘打！</p><p class="text-[11px] text-neutral-400 dark:text-neutral-500">所有商標、徽標及品牌名稱均歸其各自所有者所有。</p></div><!-- 动态分类导航 --><div class="space-y-3"><h4 class="text-xs font-bold uppercase tracking-wider text-neutral-900 dark:text-white">分類</h4><ul class="space-y-1.5 text-xs"><li><a href="/zh-TW/games/baseball-games" class="hover:text-amber-500 dark:hover:text-amber-400 transition">棒球遊戲</a></li><li><a href="/zh-TW/games/basketball-games" class="hover:text-amber-500 dark:hover:text-amber-400 transition">籃球遊戲</a></li><li><a href="/zh-TW/games/soccer-games" class="hover:text-amber-500 dark:hover:text-amber-400 transition">足球遊戲</a></li><li><a href="/zh-TW/games/football-games" class="hover:text-amber-500 dark:hover:text-amber-400 transition">美式橄欖球遊戲</a></li></ul></div><!-- 法律合规与关于我们 --><div class="space-y-3"><h4 class="text-xs font-bold uppercase tracking-wider text-neutral-900 dark:text-white">法律與信任聲明</h4><ul class="space-y-1.5 text-xs"><li><a href="/about-us" class="hover:text-amber-500 dark:hover:text-amber-400 transition">關於我們</a></li><li><a href="/privacy-policy" class="hover:text-amber-500 dark:hover:text-amber-400 transition">隱私權政策</a></li><li><a href="/terms-of-use" class="hover:text-amber-500 dark:hover:text-amber-400 transition">服務條款</a></li><li><a href="/copyright-notice" class="hover:text-amber-500 dark:hover:text-amber-400 transition">版權聲明</a></li></ul></div></div><!-- 版权与声明 --><div class="border-t border-neutral-100 dark:border-neutral-900 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-neutral-400 dark:text-neutral-500"><div>© 2026 Baseball Bros Online. 保留所有權利。</div><div class="flex items-center gap-4"><span>極速 SSG &amp; 零多餘追蹤</span><span>•</span><span>由 Astro 強力驅動</span></div></div></div></footer><!-- 欧洲 GDPR 与 Cookie 同意弹窗 --><!-- Adsterra Social Bar 全局互动消息条广告 --></body></html>

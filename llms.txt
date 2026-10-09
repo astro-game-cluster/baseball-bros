@@ -1,0 +1,87 @@
+# Baseball Bros Online - LLMs Guide
+
+Fast-paced multiplayer IO baseball action with easy-to-learn mechanics and a focus on swinging for the fences.
+
+## Primary Pages & URLs
+- Homepage: https://baseballbros.online/
+- About Us: https://baseballbros.online/about-us
+
+## Games Collection
+- **American Football Challenge: Goalie Game**: https://baseballbros.online/game/american-football-challenge
+- **Angry Pumpkin Basketball**: https://baseballbros.online/game/angry-pumpkin-basketball
+- **Baseball Bat**: https://baseballbros.online/game/baseball-bat
+- **Baseball Boy: Hit it farther, upgrade stats**: https://baseballbros.online/game/baseball-boy
+- **Baseball Bros Online**: https://baseballbros.online/game/baseball-bros
+- **Baseball Hero: Precision Hitting &amp; Explosive Fun**: https://baseballbros.online/game/baseball-hero
+- **Basketball Legends: Free 2-Player Game**: https://baseballbros.online/game/basketball-legends
+- **BasketBros**: https://baseballbros.online/game/basketbros
+- **Chiellini Pool Soccer: Fusion Football Game on Baseball Bros Online**: https://baseballbros.online/game/chiellini-pool-soccer
+- **Dino Bros: Free Co-op Platformer Game**: https://baseballbros.online/game/dino-bros
+- **Flip Bros: Free Physics Platformer**: https://baseballbros.online/game/flip-bros
+- **Football Blitz: Play Soccer Tournament Game**: https://baseballbros.online/game/football-blitz
+- **Football Legends**: https://baseballbros.online/game/football-legends
+- **Freekick Football: Score Goals &amp; Win Cups**: https://baseballbros.online/game/freekick-football
+- **Baseball Bros Online: Play Free Multiplayer IO Baseball** (Featured Game): https://baseballbros.online/
+- **Pinball Legends: Free Tropical Beach Pinball**: https://baseballbros.online/game/pinball-legends
+- **Running Soccer: Master Control, Dodge Tackles**: https://baseballbros.online/game/running-soccer
+- **Santa Basket: Launch Santa &amp; Score Big | Basketball Bros Online**: https://baseballbros.online/game/santa-basket
+- **Soccer Bros: Free 2-Player Football Games**: https://baseballbros.online/game/soccer-bros
+- **Soccer Challenge: Free Passing Puzzle Game**: https://baseballbros.online/game/soccer-challenge
+- **Soccer Dash**: https://baseballbros.online/game/soccer-dash
+- **Play Soccer Match 3: Free Online Puzzle Game**: https://baseballbros.online/game/soccer-match-3
+- **Soccer Score**: https://baseballbros.online/game/soccer-score
+- **Super Mario Bros: Free Retro Platformer**: https://baseballbros.online/game/super-mario-bros
+- **Play Super Soccer Free - 90-Second Football Action**: https://baseballbros.online/game/super-soccer
+- **Wrestle Bros**: https://baseballbros.online/game/wrestle-bros
+- **Baseball Bros Online: 免费在线玩多人 IO 棒球游戏** (ZH-CN Featured Game): https://baseballbros.online/zh-CN
+- **美式橄榄球挑战：守门员游戏** (ZH-CN): https://baseballbros.online/zh-CN/game/american-football-challenge
+- **愤怒南瓜篮球：立即免费畅玩** (ZH-CN): https://baseballbros.online/zh-CN/game/angry-pumpkin-basketball
+- **棒球棒：畅玩免费街机游戏** (ZH-CN): https://baseballbros.online/zh-CN/game/baseball-bat
+- **棒球小子：击出更远，升级属性** (ZH-CN): https://baseballbros.online/zh-CN/game/baseball-boy
+- **棒球兄弟在线：畅玩免费多人 IO 棒球** (ZH-CN): https://baseballbros.online/zh-CN/game/baseball-bros
+- **棒球英雄：精准击球 &amp; 畅快爆炸** (ZH-CN): https://baseballbros.online/zh-CN/game/baseball-hero
+- **篮球传奇：免费双人游戏 | 全垒打兄弟在线** (ZH-CN): https://baseballbros.online/zh-CN/game/basketball-legends
+- **篮球兄弟：免费在线畅玩2D篮球游戏** (ZH-CN): https://baseballbros.online/zh-CN/game/basketbros
+- **基耶利尼桌球足球：棒球兄弟在线融合足球游戏** (ZH-CN): https://baseballbros.online/zh-CN/game/chiellini-pool-soccer
+- **恐龙兄弟：免费合作平台游戏** (ZH-CN): https://baseballbros.online/zh-CN/game/dino-bros
+- **翻滚兄弟：免费物理平台游戏** (ZH-CN): https://baseballbros.online/zh-CN/game/flip-bros
+- **足球闪电战：玩足球锦标赛游戏 | 棒球兄弟** (ZH-CN): https://baseballbros.online/zh-CN/game/football-blitz
+- **足球传奇：畅玩免费足球游戏** (ZH-CN): https://baseballbros.online/zh-CN/game/football-legends
+- **任意球足球：进球得分 &amp; 赢得杯赛 | 棒球兄弟** (ZH-CN): https://baseballbros.online/zh-CN/game/freekick-football
+- **弹珠传奇：免费热带海滩弹珠台** (ZH-CN): https://baseballbros.online/zh-CN/game/pinball-legends
+- **奔跑足球：大师控球，躲避铲球** (ZH-CN): https://baseballbros.online/zh-CN/game/running-soccer
+- **圣诞投篮：发射圣诞老人 &amp; 赢取高分 | 篮球兄弟在线** (ZH-CN): https://baseballbros.online/zh-CN/game/santa-basket
+- **足球兄弟：双人免费足球游戏** (ZH-CN): https://baseballbros.online/zh-CN/game/soccer-bros
+- **足球挑战：免费传球益智游戏 | 棒球兄弟** (ZH-CN): https://baseballbros.online/zh-CN/game/soccer-challenge
+- **足球冲刺：畅玩免费策略踢球挑战** (ZH-CN): https://baseballbros.online/zh-CN/game/soccer-dash
+- **玩转足球比赛3：免费在线益智游戏** (ZH-CN): https://baseballbros.online/zh-CN/game/soccer-match-3
+- **足球比分：畅玩免费足球游戏** (ZH-CN): https://baseballbros.online/zh-CN/game/soccer-score
+- **超级马里奥兄弟：免费复古平台游戏 | 棒球兄弟** (ZH-CN): https://baseballbros.online/zh-CN/game/super-mario-bros
+- **畅玩超级足球免费版 - 90秒足球激战** (ZH-CN): https://baseballbros.online/zh-CN/game/super-soccer
+- **摔跤兄弟：免费双人在线摔跤游戏** (ZH-CN): https://baseballbros.online/zh-CN/game/wrestle-bros
+- **Baseball Bros Online: 免費線上玩多人 IO 棒球遊戲** (ZH-TW Featured Game): https://baseballbros.online/zh-TW
+- **美式足球挑戰：守門員遊戲** (ZH-TW): https://baseballbros.online/zh-TW/game/american-football-challenge
+- **憤怒南瓜籃球：立即免費玩** (ZH-TW): https://baseballbros.online/zh-TW/game/angry-pumpkin-basketball
+- **棒球棒：玩免費街機遊戲 | 線上棒球兄弟** (ZH-TW): https://baseballbros.online/zh-TW/game/baseball-bat
+- **棒球小子：擊出更遠，升級你的能力** (ZH-TW): https://baseballbros.online/zh-TW/game/baseball-boy
+- **棒球兄弟線上：免費暢玩多人IO棒球** (ZH-TW): https://baseballbros.online/zh-TW/game/baseball-bros
+- **棒球英雄：精準打擊 &amp; 刺激快感 | 線上棒球兄弟** (ZH-TW): https://baseballbros.online/zh-TW/game/baseball-hero
+- **籃球傳奇：免費 2 人遊戲** (ZH-TW): https://baseballbros.online/zh-TW/game/basketball-legends
+- **籃球兄弟：免費暢玩 2D 線上籃球遊戲** (ZH-TW): https://baseballbros.online/zh-TW/game/basketbros
+- **基耶利尼撞球足球：棒球兄弟線上融合足球遊戲** (ZH-TW): https://baseballbros.online/zh-TW/game/chiellini-pool-soccer
+- **恐龍兄弟：免費合作平台遊戲** (ZH-TW): https://baseballbros.online/zh-TW/game/dino-bros
+- **翻轉兄弟：免費物理平台遊戲** (ZH-TW): https://baseballbros.online/zh-TW/game/flip-bros
+- **足球閃電戰：玩足球比賽遊戲 | 棒球兄弟** (ZH-TW): https://baseballbros.online/zh-TW/game/football-blitz
+- **足球傳奇：免費足球遊戲** (ZH-TW): https://baseballbros.online/zh-TW/game/football-legends
+- **自由球足球：得分並贏得獎盃 | 棒球兄弟** (ZH-TW): https://baseballbros.online/zh-TW/game/freekick-football
+- **彈珠傳奇：免費熱帶海灘彈珠台** (ZH-TW): https://baseballbros.online/zh-TW/game/pinball-legends
+- **衝刺足球：掌控技巧，閃避飛鏟** (ZH-TW): https://baseballbros.online/zh-TW/game/running-soccer
+- **聖誕籃球：發射聖誕老人並獲得高分 | 線上籃球兄弟** (ZH-TW): https://baseballbros.online/zh-TW/game/santa-basket
+- **足球兄弟：免費雙人足球遊戲** (ZH-TW): https://baseballbros.online/zh-TW/game/soccer-bros
+- **足球挑戰：免費傳球益智遊戲 | 棒球兄弟** (ZH-TW): https://baseballbros.online/zh-TW/game/soccer-challenge
+- **足球衝刺：免費暢玩策略踢球挑戰** (ZH-TW): https://baseballbros.online/zh-TW/game/soccer-dash
+- **玩足球比賽 3：免費線上益智遊戲** (ZH-TW): https://baseballbros.online/zh-TW/game/soccer-match-3
+- **足球得分：暢玩免費足球遊戲** (ZH-TW): https://baseballbros.online/zh-TW/game/soccer-score
+- **超級瑪利歐兄弟：免費復古平台遊戲 | 棒球兄弟** (ZH-TW): https://baseballbros.online/zh-TW/game/super-mario-bros
+- **玩超級足球免費版 - 90 秒足球動作** (ZH-TW): https://baseballbros.online/zh-TW/game/super-soccer
+- **摔角兄弟：免費 2 人摔角遊戲線上玩** (ZH-TW): https://baseballbros.online/zh-TW/game/wrestle-bros
